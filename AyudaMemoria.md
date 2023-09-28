@@ -57,9 +57,9 @@ Sino recorrer esta ruta
 * C:\Windows\Temp
 * administrador de tareas solapa inicio
 
-* DISM /Online /Cleanup-Image /checkhealth
-* DISM /Online /Cleanup-Image /ScanHealth
-* DISM /Online /Cleanup-Image /restorehealth
+> DISM /Online /Cleanup-Image /checkhealth
+> DISM /Online /Cleanup-Image /ScanHealth
+> DISM /Online /Cleanup-Image /restorehealth
 * sfc /csannow
 
 ### LIC
@@ -85,3 +85,7 @@ powercfg /batteryreport
 
 ### Configurar los sitios de confianza navegacion web
 <span style="color:red">inetcpl.cpl</span>
+
+### Reiniciar Stack TCP IP
+> netsh int ip reset 
+Y luego reiniciar PC
