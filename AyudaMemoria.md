@@ -47,4 +47,4 @@ Sino recorrer esta ruta
 
 Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
 
-![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/GrandesClientes.JPG)
+![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
