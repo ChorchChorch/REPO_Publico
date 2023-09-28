@@ -38,10 +38,13 @@ Siendo el resultado final: 012345678905
 
 
 
-## Ver en un calendario los problemas, warning etc que se dispararon en un equipo con Windows
+## Monitoreo de Confiabilidad en en un equipo con Windows
+### Ver en un calendario los problemas, warning etc que se dispararon 
+
 perfmon /rel
 
 Sino recorrer esta ruta
 
 Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
 
+![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/GrandesClientes.JPG)
