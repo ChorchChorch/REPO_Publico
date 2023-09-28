@@ -81,5 +81,5 @@ Sino recorrer esta ruta
 ### Bateria Notebook
 powercfg /batteryreport
 
-## Configurar los sitios de confianza navegacion web
-inetcpl.cpl
+### Configurar los sitios de confianza navegacion web
+<span style="color:red">inetcpl.cpl</span>
