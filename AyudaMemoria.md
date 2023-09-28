@@ -41,11 +41,11 @@ Siendo el resultado final: 012345678905
 ## Monitoreo de Confiabilidad en en un equipo con Windows
 ### Ver en un calendario los problemas, warning etc que se dispararon 
 
->> perfmon /rel
+> perfmon /rel
 
 Sino recorrer esta ruta
 
->> Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
+> Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
 
 ![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
 
@@ -62,10 +62,11 @@ Sino recorrer esta ruta
 * DISM /Online /Cleanup-Image /restorehealth
 * sfc /csannow
 
-LIC
+### LIC
   PS C:\windows\system32> wmic path softwareLicensingService get OA3xOriginalProductKey
 
 ### Upgrade de Lic WIN
+
   * sc config LicenseManager start= auto & net start LicenseManager
   * sc config wuauserv start= auto & net start wuauserv
   * changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
@@ -73,13 +74,12 @@ LIC
   * exit
 
 ### Zocalos de memoria de una MotherBoard
+
   * wmic memphysical get MaxCapacity, MemoryDevices
   * wmic memorychip get devicelocator, capacity
 
-
 ### Bateria Notebook
-  powercfg /batteryreport
-
+powercfg /batteryreport
 
 ## Configurar los sitios de confianza navegacion web
 inetcpl.cpl
