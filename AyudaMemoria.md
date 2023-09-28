@@ -35,3 +35,13 @@ Etapa 5: Buscar el menor número que sumado al resultado obtenido en la etapa 4 
 De esta manera se llega a que el número 5 es el dígito verificador módulo 10 para el código 01234567890
 
 Siendo el resultado final: 012345678905
+
+
+
+## Ver en un calendario los problemas, warning etc que se dispararon en un equipo con Windows
+perfmon /rel
+
+Sino recorrer esta ruta
+
+Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
+
