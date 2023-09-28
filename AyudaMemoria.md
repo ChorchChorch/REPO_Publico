@@ -41,11 +41,11 @@ Siendo el resultado final: 012345678905
 ## Monitoreo de Confiabilidad en en un equipo con Windows
 ### Ver en un calendario los problemas, warning etc que se dispararon 
 
-perfmon /rel
+>> perfmon /rel
 
 Sino recorrer esta ruta
 
-Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
+>> Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
 
 ![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
 
@@ -53,7 +53,7 @@ Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confia
 ## Limpieza PC con Windows
 
 cleanmgr
-%temp%
+ %temp%
 C:\Windows\Temp
 administrador de tareas solapa inicio
 
