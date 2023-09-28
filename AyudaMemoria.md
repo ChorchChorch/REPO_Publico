@@ -78,6 +78,8 @@ Sino recorrer esta ruta
   * wmic memphysical get MaxCapacity, MemoryDevices
   * wmic memorychip get devicelocator, capacity
 
+![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
+
 ### Bateria Notebook
 powercfg /batteryreport
 
