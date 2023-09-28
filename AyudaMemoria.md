@@ -65,7 +65,7 @@ Sino recorrer esta ruta
 ### LIC
   PS C:\windows\system32> wmic path softwareLicensingService get OA3xOriginalProductKey
 
-### Upgrade de Lic WIN
+#### Upgrade de Lic WIN
 
   * sc config LicenseManager start= auto & net start LicenseManager
   * sc config wuauserv start= auto & net start wuauserv
