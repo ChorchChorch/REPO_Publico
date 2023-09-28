@@ -52,29 +52,29 @@ Sino recorrer esta ruta
 
 ## Limpieza PC con Windows
 
-cleanmgr
- %temp%
-C:\Windows\Temp
-administrador de tareas solapa inicio
+* cleanmgr
+* %temp%
+* C:\Windows\Temp
+* administrador de tareas solapa inicio
 
-DISM /Online /Cleanup-Image /checkhealth
-DISM /Online /Cleanup-Image /ScanHealth
-DISM /Online /Cleanup-Image /restorehealth
-sfc /csannow
+* DISM /Online /Cleanup-Image /checkhealth
+* DISM /Online /Cleanup-Image /ScanHealth
+* DISM /Online /Cleanup-Image /restorehealth
+* sfc /csannow
 
 LIC
   PS C:\windows\system32> wmic path softwareLicensingService get OA3xOriginalProductKey
 
-upgrade de Lic WIN
-  sc config LicenseManager start= auto & net start LicenseManager
-  sc config wuauserv start= auto & net start wuauserv
-  changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
-  exit
-  exit
+### Upgrade de Lic WIN
+  * sc config LicenseManager start= auto & net start LicenseManager
+  * sc config wuauserv start= auto & net start wuauserv
+  * changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
+  * exit
+  * exit
 
-Zocalos de memoria de una MotherBoard
-  wmic memphysical get MaxCapacity, MemoryDevices
-  wmic memorychip get devicelocator, capacity
+### Zocalos de memoria de una MotherBoard
+  * wmic memphysical get MaxCapacity, MemoryDevices
+  * wmic memorychip get devicelocator, capacity
 
 
 ### Bateria Notebook
