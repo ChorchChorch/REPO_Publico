@@ -1,5 +1,6 @@
 INDICES
 
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#excel">Excel</a>
 https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#excel
 https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#listado-de-grandes-clientes-regimen-mipyme
 https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows
