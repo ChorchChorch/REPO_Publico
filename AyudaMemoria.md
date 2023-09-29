@@ -124,3 +124,7 @@ Video de youtube con paso a paso https://youtu.be/xJawqqGomKw
 > exit
 > 
 > exit
+
+### Driver
+Backup de driver existentes con PS
+> Export-WindowsDriver -Online -Destination c:\driversbkp
