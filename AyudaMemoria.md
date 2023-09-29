@@ -58,9 +58,12 @@ Sino recorrer esta ruta
 * administrador de tareas solapa inicio
 
 > DISM /Online /Cleanup-Image /checkhealth
+> 
 > DISM /Online /Cleanup-Image /ScanHealth
+> 
 > DISM /Online /Cleanup-Image /restorehealth
-* sfc /csannow
+> 
+> sfc /csannow
 
 ### LIC
   PS C:\windows\system32> wmic path softwareLicensingService get OA3xOriginalProductKey
@@ -81,11 +84,12 @@ Sino recorrer esta ruta
 ![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
 
 ### Bateria Notebook
-powercfg /batteryreport
+> powercfg /batteryreport
 
 ### Configurar los sitios de confianza navegacion web
-<span style="color:red">inetcpl.cpl</span>
+> inetcpl.cpl
 
 ### Reiniciar Stack TCP IP
-> netsh int ip reset 
+> netsh int ip reset
+
 Y luego reiniciar PC
