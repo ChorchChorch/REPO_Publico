@@ -58,14 +58,16 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 > start %temp%
 >
 > start C:\Windows\Temp
-
+>
+> cls
+> 
 > DISM /Online /Cleanup-Image /checkhealth
 > 
 > DISM /Online /Cleanup-Image /ScanHealth
 > 
 > DISM /Online /Cleanup-Image /restorehealth
 > 
-> sfc /csannow
+> sfc /scannow
 >
 > gpupdate /force
 >
@@ -75,7 +77,7 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 >
 > wmic path softwareLicensingService get OA3xOriginalProductKey
 
->REM **Zocalos de memoria de una MotherBoard (adm)**
+>REM **Zocalos de memoria de una MotherBoard**
 >
 >wmic memphysical get MaxCapacity, MemoryDevices
 >
