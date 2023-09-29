@@ -136,6 +136,7 @@ net user  	PEPE   /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Cambio d
 ### Manejo TXT percepciones
 
 * 33715317619  E  -.----  202309  ADRIAN OSCAR MARQUES DOS SANTOS  DAVID                                                                                                                  -----
+* 
 * 33715317619  E  -.----  202309  ADRIAN OSCAR MARQUES DOS SANTOS  DAVID JESUS MARQUES DOS SANTOS SOCIEDAD LEY 19550 CAP  I SECC  IV                                                      -----
 
 =CONCATENAR(IZQUIERDA(A7,70),REPETIR(" ",110),DERECHA(A7,LARGO(A7)-180))
