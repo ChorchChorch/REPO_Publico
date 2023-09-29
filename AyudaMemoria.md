@@ -39,7 +39,7 @@ Siendo el resultado final: 012345678905
 
 
 ## Monitoreo de Confiabilidad en en un equipo con Windows
-### Ver en un calendario los problemas, warning etc que se dispararon 
+Ver en un calendario los problemas, warning etc que se dispararon 
 
 > perfmon /rel
 
