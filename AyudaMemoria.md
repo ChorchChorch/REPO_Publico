@@ -52,10 +52,13 @@ Sino recorrer esta ruta
 
 ## Limpieza PC con Windows
 
-* cleanmgr
-* %temp%
-* C:\Windows\Temp
-* administrador de tareas solapa inicio
+> cleanmgr
+>
+> %temp%
+>
+> C:\Windows\Temp
+>
+> administrador de tareas solapa inicio
 
 > DISM /Online /Cleanup-Image /checkhealth
 > 
