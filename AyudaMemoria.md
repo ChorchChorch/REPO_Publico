@@ -53,7 +53,7 @@ Sino recorrer esta ruta
 ## Limpieza PC con Windows (adm)
 Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
 
-> cleanmgr.exe
+> start cleanmgr.exe
 >
 > start %temp%
 >
