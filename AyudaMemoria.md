@@ -73,10 +73,6 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 >
 > gpresult -r
 
-> REM **obtener Licencia de Windows**
->
-> wmic path softwareLicensingService get OA3xOriginalProductKey
-
 >REM **Zocalos de memoria de una MotherBoard**
 >
 >wmic memphysical get MaxCapacity, MemoryDevices
@@ -97,8 +93,15 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 Y luego reiniciar PC
 
 ### Upgrade de Lic WIN (adm)
-Como saltar el bloqueo que pide cuenta para activar windows, pues dentro del instalador de Windows ejecutandose presionamos Shift + F10 para obtener una consola y tipear **oobe\bypassnro** , reinicias y luego si te permite omitir este paso
+Como saltar el bloqueo que pide cuenta para activar windows, pues dentro del instalador de Windows ejecutandose presionamos Shift + F10 para obtener una consola y tipear **oobe\bypassnro** , reinicias y luego si te permite omitir este paso.
+Video de youtube con paso a paso https://youtu.be/xJawqqGomKw
 
+> REM **obtener Licencia de Windows actual**
+>
+> wmic path softwareLicensingService get OA3xOriginalProductKey
+>
+>REM **Cambio de clave**
+>
 > sc config LicenseManager start= auto & net start LicenseManager
 > 
 > sc config wuauserv start= auto & net start wuauserv
