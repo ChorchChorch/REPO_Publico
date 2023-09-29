@@ -71,11 +71,11 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 >
 > gpresult -r
 
-> REM *obtener Licencia de Windows*
+> REM **obtener Licencia de Windows**
 >
 > wmic path softwareLicensingService get OA3xOriginalProductKey
 
->REM *Zocalos de memoria de una MotherBoard (adm)*
+>REM **Zocalos de memoria de una MotherBoard (adm)**
 >
 >wmic memphysical get MaxCapacity, MemoryDevices
 >
@@ -96,8 +96,12 @@ Y luego reiniciar PC
 
 ### Upgrade de Lic WIN (adm)
 
-  * sc config LicenseManager start= auto & net start LicenseManager
-  * sc config wuauserv start= auto & net start wuauserv
-  * changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
-  * exit
-  * exit
+> sc config LicenseManager start= auto & net start LicenseManager
+> 
+> sc config wuauserv start= auto & net start wuauserv
+> 
+> changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
+> 
+> exit
+> 
+> exit
