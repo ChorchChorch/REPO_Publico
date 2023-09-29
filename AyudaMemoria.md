@@ -53,7 +53,7 @@ Sino recorrer esta ruta
 ## Limpieza PC con Windows (adm)
 Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
 
-> cleanmgr
+> cleanmgr.exe
 >
 > %temp%
 >
@@ -71,11 +71,11 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 >
 > gpresult -r
 
-> REM obtener Licencia de Windows
+> REM *obtener Licencia de Windows*
 >
 > wmic path softwareLicensingService get OA3xOriginalProductKey
 
->REM Zocalos de memoria de una MotherBoard (adm)
+>REM *Zocalos de memoria de una MotherBoard (adm)*
 >
 >wmic memphysical get MaxCapacity, MemoryDevices
 >
