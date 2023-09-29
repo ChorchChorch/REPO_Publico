@@ -71,6 +71,8 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 > start C:\Windows\Temp
 >
 > cls
+>
+> systeminfo
 > 
 > DISM /Online /Cleanup-Image /checkhealth
 > 
