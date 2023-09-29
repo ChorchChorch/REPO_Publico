@@ -1,11 +1,9 @@
 INDICES
 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#excel">Excel</a>
-
-https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#excel
-https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#listado-de-grandes-clientes-regimen-mipyme
-https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows
-https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#limpieza-pc-con-windows-adm
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#listado-de-grandes-clientes-regimen-mipyme">listado-de-grandes-clientes-regimen-mipyme</a> 
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">Historial Errores y Warnings</a>
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#limpieza-pc-con-windows-adm">Limpieza PC con Windows</a>
 https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#bateria-notebook
 https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#configurar-los-sitios-de-confianza-navegacion-web
 https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#reiniciar-stack-tcp-ip-adm
