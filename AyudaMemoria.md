@@ -1,7 +1,6 @@
 INDICES
 
-![image](https://github.com/ChorchChorch/REPO_Publico/assets/36523030/5f6fe46c-c565-4e1c-a166-4408c4132e4f)
-
+https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#excel
 
 
 
