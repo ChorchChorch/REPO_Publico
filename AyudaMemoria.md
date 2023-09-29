@@ -50,15 +50,14 @@ Sino recorrer esta ruta
 ![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
 
 
-## Limpieza PC con Windows
+## Limpieza PC con Windows (adm)
+Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
 
 > cleanmgr
 >
 > %temp%
 >
 > C:\Windows\Temp
->
-> administrador de tareas solapa inicio
 
 > DISM /Online /Cleanup-Image /checkhealth
 > 
@@ -67,22 +66,20 @@ Sino recorrer esta ruta
 > DISM /Online /Cleanup-Image /restorehealth
 > 
 > sfc /csannow
+>
+> gpupdate /force
+>
+> gpresult -r
 
-### LIC
-  PS C:\windows\system32> wmic path softwareLicensingService get OA3xOriginalProductKey
+> REM obtener Licencia de Windows
+>
+> wmic path softwareLicensingService get OA3xOriginalProductKey
 
-#### Upgrade de Lic WIN
-
-  * sc config LicenseManager start= auto & net start LicenseManager
-  * sc config wuauserv start= auto & net start wuauserv
-  * changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
-  * exit
-  * exit
-
-### Zocalos de memoria de una MotherBoard
-
-  * wmic memphysical get MaxCapacity, MemoryDevices
-  * wmic memorychip get devicelocator, capacity
+>REM Zocalos de memoria de una MotherBoard (adm)
+>
+>wmic memphysical get MaxCapacity, MemoryDevices
+>
+>wmic memorychip get devicelocator, capacity
 
 ![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
 
@@ -92,7 +89,15 @@ Sino recorrer esta ruta
 ### Configurar los sitios de confianza navegacion web
 > inetcpl.cpl
 
-### Reiniciar Stack TCP IP
+### Reiniciar Stack TCP IP (adm)
 > netsh int ip reset
 
 Y luego reiniciar PC
+
+### Upgrade de Lic WIN (adm)
+
+  * sc config LicenseManager start= auto & net start LicenseManager
+  * sc config wuauserv start= auto & net start wuauserv
+  * changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
+  * exit
+  * exit
