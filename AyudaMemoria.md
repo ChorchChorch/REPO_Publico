@@ -89,7 +89,7 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 > powercfg /batteryreport
 
 ### Configurar los sitios de confianza navegacion web
-> inetcpl.cpl
+> start inetcpl.cpl
 
 ### Reiniciar Stack TCP IP (adm)
 > netsh int ip reset
@@ -97,6 +97,7 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 Y luego reiniciar PC
 
 ### Upgrade de Lic WIN (adm)
+Como saltar el bloqueo que pide cuenta para activar windows, pues dentro del instalador de Windows ejecutandose presionamos Shift + F10 para obtener una consola y tipear **oobe\bypassnro** , reinicias y luego si te permite omitir este paso
 
 > sc config LicenseManager start= auto & net start LicenseManager
 > 
