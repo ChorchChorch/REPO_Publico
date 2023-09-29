@@ -130,8 +130,11 @@ Video de youtube con paso a paso https://youtu.be/xJawqqGomKw
 Backup de driver existentes con PS
 > Export-WindowsDriver -Online -Destination c:\driversbkp
 
-### Fecha de cambio de contraseña 
-net user  	PEPE   /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Cambio de contraseña"
+### Fecha de Cambio de Contraseña o Inicio Sesion
+> net user  	PEPE   /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Cambio de contraseña"
+>
+> net user 	PEPE	  /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Última vez que inició sesión"
+
 
 ### Manejo TXT percepciones
 
