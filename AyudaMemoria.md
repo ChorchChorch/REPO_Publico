@@ -134,6 +134,8 @@ Backup de driver existentes con PS
 > net user  	PEPE   /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Cambio de contraseña"
 >
 > net user 	PEPE	  /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Última vez que inició sesión"
+>
+> ping	PC01	-n 1
 
 
 ### Manejo TXT percepciones
