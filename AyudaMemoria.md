@@ -1,3 +1,10 @@
+INDICES
+
+![image](https://github.com/ChorchChorch/REPO_Publico/assets/36523030/5f6fe46c-c565-4e1c-a166-4408c4132e4f)
+
+
+
+
 # EXCEL
 
 ## Como agregar a la cinta de opciones el acceso rapido seleccionar solo celdas visibles
