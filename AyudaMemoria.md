@@ -55,9 +55,9 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 
 > cleanmgr.exe
 >
-> %temp%
+> start %temp%
 >
-> C:\Windows\Temp
+> start C:\Windows\Temp
 
 > DISM /Online /Cleanup-Image /checkhealth
 > 
