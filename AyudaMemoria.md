@@ -11,8 +11,11 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#backup-de-drivers-en-windows">Backups dirver Windows</a> |
 
 
-
-
+## Inventario de cambios
+CMD query para obtener fecha cambio de contraseña e inicio de sesion
+> net user 	PEPE		/Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Cambio de contraseña"
+>
+> net user 	PEPE	  /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Última vez que inició sesión"		
 
 ## Monitoreo de Confiabilidad en en un equipo con Windows
 Ver en un calendario los problemas, warning etc que se dispararon 
