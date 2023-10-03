@@ -42,17 +42,29 @@ Agregar y borrar ususarios
 Mas data
 
 •	/COMMENT: permite añadir un comentario en la cuenta de usuario que vamos a crear.
+
 •	/COUNTRYCODE: permite añadir el código del país o región del sistema operativo para usar los archivos de idioma.
+
 •	/EXPIRES: permite configurar cuándo expira una determinada cuenta que vamos a añadir o modificar, si no indicamos nada no expirará nunca.
+
 •	/FULLNAME: esta opción nos permite definir el nombre completo del usuario, y no solamente el nombre de usuario de inicio de sesión.
+
 •	/HOMEDIR: permite configurar la ruta del directorio principal del usuario.
+
 •	/PASSWORDCHG: permite configurar si se permite a los usuarios cambiar su propia contraseña de acceso.
+
 •	/PASSWORDREQ: permite configurar que los usuarios siempre tengan una contraseña de acceso.
+
 •	/LOGONPASSWORDCHG: fuerza al cambio de contraseña del usuario en cuestión en el siguiente inicio de sesión.
+
 •	/PROFILEPATH: establece la ruta para el perfil de inicio de sesión del usuario.
+
 •	/SCRIPTPATH: ubicación del script de inicio de sesión del usuario en cuestión.
+
 •	/TIMES: horas en los que un determinado usuario puede iniciar sesión.
+
 •	/USERCOMMENT: permite agregar o cambiar el comentario de un usuario para la cuenta.
+
 •	/WORKSTATIONS: muestra hasta 8 equipos en la red desde los que podrá iniciar sesión un usuario.
 
 
