@@ -10,6 +10,7 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#inventario-de-cambios">Politica Seguridad</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#excel">Excel</a> | 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#listado-de-grandes-clientes-regimen-mipyme">Grandes Clientes (regimen MiPyme)</a>  | 
+Envio Whatsapp
 
 ## Inventario de cambios
 CMD query para obtener fecha cambio de contraseña e inicio de sesion
@@ -66,8 +67,6 @@ Mas data
 •	/USERCOMMENT: permite agregar o cambiar el comentario de un usuario para la cuenta.
 
 •	/WORKSTATIONS: muestra hasta 8 equipos en la red desde los que podrá iniciar sesión un usuario.
-
-
 
 ## Monitoreo de Confiabilidad en en un equipo con Windows
 Ver en un calendario los problemas, warning etc que se dispararon 
@@ -155,6 +154,9 @@ Backup de driver existentes con PS
 > net user 	PEPE	  /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Última vez que inició sesión"
 >
 > ping	PC01	-n 1
+
+## Envio Whatsapp
+> wa.me/3416242424
 
 ## EXCEL
 
