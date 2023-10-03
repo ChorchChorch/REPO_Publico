@@ -10,7 +10,7 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#inventario-de-cambios">Politica Seguridad</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#excel">Excel</a> | 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#listado-de-grandes-clientes-regimen-mipyme">Grandes Clientes (regimen MiPyme)</a>  | 
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#envio-whatsapp">Envio Whatsapp</a>
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#envio-whatsapp">Envio Whatsapp MuniBOT</a>
 
 ## Inventario de cambios
 CMD query para obtener fecha cambio de contraseña e inicio de sesion
@@ -155,10 +155,10 @@ Backup de driver existentes con PS
 >
 > ping	PC01	-n 1
 
-## Envio Whatsapp
-> wa.me/3416242424
+## Envio Whatsapp MuniBOT
+> wa.me/3415440147
 > 
-> https: //api.whatsapp.com/send?phone=3416242424
+> https: //api.whatsapp.com/send?phone=3415440147
 
 ## EXCEL
 
