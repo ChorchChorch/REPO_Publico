@@ -9,7 +9,7 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#reiniciar-stack-tcp-ip-adm">Reset Stack PC/IP</a> | 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#upgrade-de-lic-win-adm">Upgrade Licencia Windows</a> | 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#backup-de-drivers-en-windows">Backups dirver Windows</a> |
-
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#inventario-de-cambios">Politica Seguridad</a>
 
 ## Inventario de cambios
 CMD query para obtener fecha cambio de contraseña e inicio de sesion
@@ -18,7 +18,22 @@ CMD query para obtener fecha cambio de contraseña e inicio de sesion
 > net user 	PEPE	  /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Última vez que inició sesión"		
 >
 > net user 	PEPE	  /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Directorio principal"
-> 
+
+## Obtener un listado de los usuarios locales y su rol
+> net user
+saber mas detalles sobre el usuario nombreUsuario
+>net user nombreUsuario
+Activar la cuenta
+>net user nombreUsuario /active:yes
+Setear la contraseña
+>net user nombreUsuario SuperPass
+
+Agregar y borrar ususarios
+>Net User nombreUsuario contraseña /add
+>Net User nombreUsuario /delete
+
+
+
 ## Monitoreo de Confiabilidad en en un equipo con Windows
 Ver en un calendario los problemas, warning etc que se dispararon 
 
