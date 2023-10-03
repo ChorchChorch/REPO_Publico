@@ -157,6 +157,8 @@ Backup de driver existentes con PS
 
 ## Envio Whatsapp
 > wa.me/3416242424
+> o
+> https: //api.whatsapp.com/send?phone=3416242424
 
 ## EXCEL
 
