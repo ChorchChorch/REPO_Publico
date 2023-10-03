@@ -21,6 +21,7 @@ CMD query para obtener fecha cambio de contraseña e inicio de sesion
 
 ## Obtener un listado de los usuarios locales y su rol
 > net user
+
 saber mas detalles sobre el usuario nombreUsuario
 
 >net user nombreUsuario
@@ -35,7 +36,7 @@ Setear la contraseña
 
 Agregar y borrar ususarios
 >Net User nombreUsuario contraseña /add
-
+>
 >Net User nombreUsuario /delete
 
 
