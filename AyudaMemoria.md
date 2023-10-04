@@ -224,26 +224,16 @@ Siendo el resultado final: 012345678905
 
 Habilitar espacio virtual
 Ejemplo de configiracion de un archivo para deploy rapido, guardar con extension **wsb**
-
-> <Configuration>
->
->  <VGpu>Enable</VGpu>
->
->  <Networking>Enable</Networking>
->
->   <MappedFolders>
->
->     <MappedFolder>
->
->        <HostFolder>D:\scan</HostFolder>
->
->            <ReadOnly>True</ReadOnly>
->
->    </MappedFolder>
->
-> </MappedFolders>
->
-> </Configuration>
->
-
+"
+<Configuration>
+  <VGpu>Enable</VGpu>
+  <Networking>Enable</Networking>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>D:\scan</HostFolder>
+      <ReadOnly>True</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+</Configuration>
+"
 
