@@ -12,6 +12,7 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#listado-de-grandes-clientes-regimen-mipyme">Grandes Clientes (regimen MiPyme)</a>  | 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#envio-whatsapp-munibot">Envio Whatsapp MuniBOT</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#forzar-updates-windows">Forzar updates Windows</a> |
+Aceleracion Hardware y recalculo automatico
 
 ## Inventario de cambios
 CMD query para obtener fecha cambio de contraseña e inicio de sesion
@@ -176,6 +177,12 @@ Backup de driver existentes con PS
 =CONCATENAR(IZQUIERDA(A7,70),REPETIR(" ",110),DERECHA(A7,LARGO(A7)-180))
 
 =CONCATENAR(IZQUIERDA(A6,70),REPETIR(" ",110),DERECHA(A6,LARGO(A6)-180))
+
+## Aceleracion Hardware y recalculo automatico
+
+Desde Excel abierto ves a "Archivo" > "Opciones" > "Avanzadas" en el apartado "Mostrar" marca, si no lo está, "Deshabilitar aceleración gráfica de hardware", "Aceptar". 
+
+Cierra Excel y lo vuelves a abrir para comprobar si ha mejorado
 
 ## Como agregar a la cinta de opciones el acceso rapido seleccionar solo celdas visibles
 ![personalizacintaopcionesexel](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/PersonalizarCintaOpcionesEXEL.JPG)
