@@ -13,6 +13,8 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#envio-whatsapp-munibot">Envio Whatsapp MuniBOT</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#forzar-updates-windows">Forzar updates Windows</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#aceleracion-hardware-y-recalculo-automatico">Exel aceleracion x hardware</a> |
+Habilitar espacio virtual
+
 
 ## Inventario de cambios
 CMD query para obtener fecha cambio de contraseña e inicio de sesion
@@ -220,5 +222,28 @@ De esta manera se llega a que el número 5 es el dígito verificador módulo 10 
 
 Siendo el resultado final: 012345678905
 
+Habilitar espacio virtual
+Ejemplo de configiracion de un archivo para deploy rapido, guardar con extension **wsb**
+
+> <Configuration>
+>
+>  <VGpu>Enable</VGpu>
+>
+>  <Networking>Enable</Networking>
+>
+>   <MappedFolders>
+>
+>     <MappedFolder>
+>
+>        <HostFolder>D:\scan</HostFolder>
+>
+>            <ReadOnly>True</ReadOnly>
+>
+>    </MappedFolder>
+>
+> </MappedFolders>
+>
+> </Configuration>
+>
 
 
