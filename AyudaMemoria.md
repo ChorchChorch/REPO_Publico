@@ -81,7 +81,7 @@ Sino recorrer esta ruta
 ## Forzar updates Windows
 Fuerza las actualizaciones y la descarga inmediata
 
-> wuauctl.exe /updatenow
+> wuauclt.exe /updatenow
 
 ![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
 
