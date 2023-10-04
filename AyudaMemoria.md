@@ -10,7 +10,8 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#inventario-de-cambios">Politica Seguridad</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#excel">Excel</a> | 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#listado-de-grandes-clientes-regimen-mipyme">Grandes Clientes (regimen MiPyme)</a>  | 
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#envio-whatsapp-munibot">Envio Whatsapp MuniBOT</a>
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#envio-whatsapp-munibot">Envio Whatsapp MuniBOT</a> |
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#Forzar updates Windows">Forzar updates Windows</a>
 
 ## Inventario de cambios
 CMD query para obtener fecha cambio de contraseña e inicio de sesion
@@ -76,6 +77,11 @@ Ver en un calendario los problemas, warning etc que se dispararon
 Sino recorrer esta ruta
 
 > Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
+
+## Forzar updates Windows
+Fuerza las actualizaciones y la descarga inmediata
+
+> wuauctl.exe /updatenow
 
 ![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
 
