@@ -86,8 +86,7 @@ Sino recorrer esta ruta
 
 ## Forzar updates Windows
 Fuerza las actualizaciones y la descarga inmediata
-
-> wuauclt.exe /updatenow
+```wuauclt.exe /updatenow```
 
 ## Limpieza PC con Windows (adm)
 Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
@@ -107,7 +106,7 @@ sfc /scannow
 gpupdate /force
 gpresult -r
 ```
->REM **Zocalos de memoria de una MotherBoard**
+### Zocalos de memoria de una MotherBoard
 ```
 wmic memphysical get MaxCapacity, MemoryDevices
 wmic memorychip get devicelocator, capacity
@@ -115,17 +114,17 @@ wmic memorychip get devicelocator, capacity
 ![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
 
 ### Bateria Notebook
-> powercfg /batteryreport
+```powercfg /batteryreport```
 
 ### Configurar los sitios de confianza navegacion web
-> start inetcpl.cpl
+```start inetcpl.cpl```
 
 ### Reiniciar Stack TCP IP (adm)
-> netsh int ip reset
+```netsh int ip reset```
 Y luego reiniciar PC
 
 ### Mapea ruta de red sin persistencia
-Subst Z: \\192.168.0.1\folder
+```Subst Z: \\192.168.0.1\folder```
 
 ### Upgrade de Lic WIN (adm)
 Como saltar el bloqueo que pide cuenta para activar windows, pues dentro del instalador de Windows ejecutandose presionamos Shift + F10 para obtener una consola y tipear **oobe\bypassnro** , reinicias y luego si te permite omitir este paso.
@@ -142,7 +141,7 @@ exit
 ```
 ### Backup de Drivers en Windows
 Backup de driver existentes con PS
-> Export-WindowsDriver -Online -Destination c:\driversbkp
+```Export-WindowsDriver -Online -Destination c:\driversbkp```
 
 ### Fecha de Cambio de Contraseña o Inicio Sesion
 > net user  	PEPE   /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Cambio de contraseña"
@@ -229,8 +228,7 @@ Listar todas las redes Recordadas
 Preguntar por la aue nos interesa
 ```
 netsh wlan show profile
-
-netsh wlan show profile name=**nombredelperfil** key=clear
+netsh wlan show profile name=nombredelperfil key=clear
 ```
 
 ### Instalar programas por consola en Windows
