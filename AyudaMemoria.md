@@ -86,7 +86,9 @@ Sino recorrer esta ruta
 
 ## Forzar updates Windows
 Fuerza las actualizaciones y la descarga inmediata
-```wuauclt.exe /updatenow```
+```
+wuauclt.exe /updatenow
+```
 
 ## Limpieza PC con Windows (adm)
 Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
@@ -114,17 +116,25 @@ wmic memorychip get devicelocator, capacity
 ![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
 
 ### Bateria Notebook
-```powercfg /batteryreport```
+```
+powercfg /batteryreport
+```
 
 ### Configurar los sitios de confianza navegacion web
-```start inetcpl.cpl```
+```
+start inetcpl.cpl
+```
 
 ### Reiniciar Stack TCP IP (adm)
-```netsh int ip reset```
+```
+netsh int ip reset
+```
 Y luego reiniciar PC
 
 ### Mapea ruta de red sin persistencia
-```Subst Z: \\192.168.0.1\folder```
+```
+Subst Z: \\192.168.0.1\folder
+```
 
 ### Upgrade de Lic WIN (adm)
 Como saltar el bloqueo que pide cuenta para activar windows, pues dentro del instalador de Windows ejecutandose presionamos Shift + F10 para obtener una consola y tipear **oobe\bypassnro** , reinicias y luego si te permite omitir este paso.
