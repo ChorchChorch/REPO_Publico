@@ -230,3 +230,21 @@ netsh wlan show profile
 
 netsh wlan show profile name=**nombredelperfil** key=clear
 ```
+
+## Winget Instalar programas por consola en Windows 
+Instalar programas por consola en Windows 
+
+https://github.com/microsoft/winget-cli/releases/
+
+```
+winget update
+winget upgrade
+
+winget search acrobat
+
+winget install 7-Zip
+winget install videolan.vlc
+winget install adobe.acrobat.reader.64-bit
+winget install OBSProject.OBSStudio
+winget install Microsoft.Teams
+```
