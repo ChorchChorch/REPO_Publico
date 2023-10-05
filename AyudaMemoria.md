@@ -90,35 +90,28 @@ Fuerza las actualizaciones y la descarga inmediata
 
 ## Limpieza PC con Windows (adm)
 Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
+```
+start cleanmgr.exe
+start %temp%
+start C:\Windows\Temp
 
-> start cleanmgr.exe
->
-> start %temp%
->
-> start C:\Windows\Temp
->
-> cls
->
-> systeminfo
-> 
-> DISM /Online /Cleanup-Image /checkhealth
-> 
-> DISM /Online /Cleanup-Image /ScanHealth
-> 
-> DISM /Online /Cleanup-Image /restorehealth
-> 
-> sfc /scannow
->
-> gpupdate /force
->
-> gpresult -r
+cls
 
+systeminfo
+ 
+DISM /Online /Cleanup-Image /checkhealth
+DISM /Online /Cleanup-Image /ScanHealth
+DISM /Online /Cleanup-Image /restorehealth
+ 
+sfc /scannow
+gpupdate /force
+gpresult -r
+```
 >REM **Zocalos de memoria de una MotherBoard**
->
->wmic memphysical get MaxCapacity, MemoryDevices
->
->wmic memorychip get devicelocator, capacity
-
+```
+wmic memphysical get MaxCapacity, MemoryDevices
+wmic memorychip get devicelocator, capacity
+```
 ![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
 
 ### Bateria Notebook
