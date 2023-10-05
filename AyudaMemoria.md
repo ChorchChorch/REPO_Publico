@@ -128,23 +128,17 @@ Y luego reiniciar PC
 ### Upgrade de Lic WIN (adm)
 Como saltar el bloqueo que pide cuenta para activar windows, pues dentro del instalador de Windows ejecutandose presionamos Shift + F10 para obtener una consola y tipear **oobe\bypassnro** , reinicias y luego si te permite omitir este paso.
 Video de youtube con paso a paso https://youtu.be/xJawqqGomKw
+```
+REM **obtener Licencia de Windows actual**
+wmic path softwareLicensingService get OA3xOriginalProductKey
+REM **Cambio de clave**
 
-> REM **obtener Licencia de Windows actual**
->
-> wmic path softwareLicensingService get OA3xOriginalProductKey
->
->REM **Cambio de clave**
->
-> sc config LicenseManager start= auto & net start LicenseManager
-> 
-> sc config wuauserv start= auto & net start wuauserv
-> 
-> changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
-> 
-> exit
-> 
-> exit
-
+sc config LicenseManager start= auto & net start LicenseManager
+sc config wuauserv start= auto & net start wuauserv
+changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
+exit
+exit
+```
 ### Backup de Drivers en Windows
 Backup de driver existentes con PS
 > Export-WindowsDriver -Online -Destination c:\driversbkp
@@ -168,11 +162,11 @@ Backup de driver existentes con PS
 * 33715317619  E  -.----  202309  ADRIAN OSCAR MARQUES DOS SANTOS  DAVID                                                                                                                  -----
 * 
 * 33715317619  E  -.----  202309  ADRIAN OSCAR MARQUES DOS SANTOS  DAVID JESUS MARQUES DOS SANTOS SOCIEDAD LEY 19550 CAP  I SECC  IV                                                      -----
-
+```
 =CONCATENAR(IZQUIERDA(A7,70),REPETIR(" ",110),DERECHA(A7,LARGO(A7)-180))
 
 =CONCATENAR(IZQUIERDA(A6,70),REPETIR(" ",110),DERECHA(A6,LARGO(A6)-180))
-
+```
 ## Aceleracion Hardware y recalculo automatico
 
 Desde Excel abierto ves a "Archivo" > "Opciones" > "Avanzadas" en el apartado "Mostrar" marca, si no lo está, "Deshabilitar aceleración gráfica de hardware", "Aceptar". 
