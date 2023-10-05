@@ -122,8 +122,10 @@ wmic memorychip get devicelocator, capacity
 
 ### Reiniciar Stack TCP IP (adm)
 > netsh int ip reset
-
 Y luego reiniciar PC
+
+### Mapea ruta de red sin persistencia
+Subst Z: \\192.168.0.1\folder
 
 ### Upgrade de Lic WIN (adm)
 Como saltar el bloqueo que pide cuenta para activar windows, pues dentro del instalador de Windows ejecutandose presionamos Shift + F10 para obtener una consola y tipear **oobe\bypassnro** , reinicias y luego si te permite omitir este paso.
@@ -172,10 +174,10 @@ Desde Excel abierto ves a "Archivo" > "Opciones" > "Avanzadas" en el apartado "M
 
 Cierra Excel y lo vuelves a abrir para comprobar si ha mejorado
 
-## Como agregar a la cinta de opciones el acceso rapido seleccionar solo celdas visibles
+### Como agregar a la cinta de opciones el acceso rapido seleccionar solo celdas visibles
 ![personalizacintaopcionesexel](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/PersonalizarCintaOpcionesEXEL.JPG)
 
-## Listado de Grandes Clientes Regimen MiPYME
+### Listado de Grandes Clientes Regimen MiPYME
 
 https://servicioscf.afip.gob.ar/facturadecreditoelectronica/Listado-RFCE-Mi-PyMe.asp
 
@@ -208,7 +210,7 @@ De esta manera se llega a que el número 5 es el dígito verificador módulo 10 
 
 Siendo el resultado final: 012345678905
 
-## Habilitar espacio virtual
+### Habilitar espacio virtual
 Ejemplo de configiracion de un archivo para deploy rapido, guardar con extension **wsb**
 ```
 <Configuration>
@@ -222,7 +224,7 @@ Ejemplo de configiracion de un archivo para deploy rapido, guardar con extension
   </MappedFolders>
 </Configuration>
 ```
-## Password de _WiFi
+### Password de _WiFi
 Listar todas las redes Recordadas
 Preguntar por la aue nos interesa
 ```
@@ -231,7 +233,7 @@ netsh wlan show profile
 netsh wlan show profile name=**nombredelperfil** key=clear
 ```
 
-## Instalar programas por consola en Windows
+### Instalar programas por consola en Windows
 Winget Instalar programas por consola en Windows. Solo puede correr una instancia de winget 
 Referencias en https://github.com/microsoft/winget-cli/releases/
 
