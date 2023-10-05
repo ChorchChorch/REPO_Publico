@@ -13,7 +13,8 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#envio-whatsapp-munibot">Envio Whatsapp MuniBOT</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#forzar-updates-windows">Forzar updates Windows</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#aceleracion-hardware-y-recalculo-automatico">Exel aceleracion x hardware</a> |
-Habilitar espacio virtual
+Habilitar espacio virtual |
+<a href=""https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#password-de-_wifi">Password de WIFI</a> |
 
 
 ## Inventario de cambios
