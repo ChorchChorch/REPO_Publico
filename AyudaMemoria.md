@@ -13,8 +13,8 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#envio-whatsapp-munibot">Envio Whatsapp MuniBOT</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#forzar-updates-windows">Forzar updates Windows</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#aceleracion-hardware-y-recalculo-automatico">Exel aceleracion x hardware</a> |
-Habilitar espacio virtual |
-<a href=""https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#password-de-_wifi">Password de WIFI</a> |
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#habilitar-espacio-virtual">Habilitar espacio virtual</a> |
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#password-de-_wifi">Password de WIFI</a> |
 
 
 ## Inventario de cambios
@@ -95,7 +95,6 @@ Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa
 start cleanmgr.exe
 start %temp%
 start C:\Windows\Temp
-
 cls
 
 systeminfo
@@ -133,7 +132,6 @@ Video de youtube con paso a paso https://youtu.be/xJawqqGomKw
 REM **obtener Licencia de Windows actual**
 wmic path softwareLicensingService get OA3xOriginalProductKey
 REM **Cambio de clave**
-
 sc config LicenseManager start= auto & net start LicenseManager
 sc config wuauserv start= auto & net start wuauserv
 changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
