@@ -15,7 +15,7 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#aceleracion-hardware-y-recalculo-automatico">Exel aceleracion x hardware</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#habilitar-espacio-virtual">Habilitar espacio virtual</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#password-de-_wifi">Password de WIFI</a> |
-
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#Instalar programas por consola en Windows">Winget</a> |
 
 ## Inventario de cambios
 CMD query para obtener fecha cambio de contraseña e inicio de sesion
@@ -231,10 +231,9 @@ netsh wlan show profile
 netsh wlan show profile name=**nombredelperfil** key=clear
 ```
 
-## Winget Instalar programas por consola en Windows 
-Instalar programas por consola en Windows 
-
-https://github.com/microsoft/winget-cli/releases/
+## Instalar programas por consola en Windows
+Winget Instalar programas por consola en Windows. Solo puede correr una instancia de winget 
+Referencias en https://github.com/microsoft/winget-cli/releases/
 
 ```
 winget update
@@ -243,8 +242,8 @@ winget upgrade
 winget search acrobat
 
 winget install 7-Zip
-winget install videolan.vlc
 winget install adobe.acrobat.reader.64-bit
 winget install OBSProject.OBSStudio
 winget install Microsoft.Teams
+winget install videolan.vlc
 ```
