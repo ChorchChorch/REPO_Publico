@@ -222,7 +222,7 @@ De esta manera se llega a que el número 5 es el dígito verificador módulo 10 
 
 Siendo el resultado final: 012345678905
 
-Habilitar espacio virtual
+## Habilitar espacio virtual
 Ejemplo de configiracion de un archivo para deploy rapido, guardar con extension **wsb**
 ```
 <Configuration>
@@ -236,4 +236,11 @@ Ejemplo de configiracion de un archivo para deploy rapido, guardar con extension
   </MappedFolders>
 </Configuration>
 ```
+## Password de _WiFi
+Listar todas las redes Recordadas
+Preguntar por la aue nos interesa
+```
+netsh wlan show profile
 
+netsh wlan show profile name=**nombredelperfil** key=clear
+```
