@@ -244,7 +244,7 @@ netsh wlan show profile name=nombredelperfil key=clear
 ### Instalar programas por consola en Windows
 Winget Instalar programas por consola en Windows. Solo puede correr una instancia de winget 
 Referencias en https://github.com/microsoft/winget-cli/releases/
-
+BleachBit, alternativa a CCLeaner lic free GPL
 ```
 winget update
 winget upgrade
@@ -255,5 +255,6 @@ winget install 7-Zip
 winget install adobe.acrobat.reader.64-bit
 winget install OBSProject.OBSStudio
 winget install Microsoft.Teams
+winget install BleachBit
 winget install videolan.vlc
 ```
