@@ -15,7 +15,7 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#aceleracion-hardware-y-recalculo-automatico">Exel aceleracion x hardware</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#habilitar-espacio-virtual">Habilitar espacio virtual</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#password-de-_wifi">Password de WIFI</a> |
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#Instalar programas por consola en Windows">Winget</a> |
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#instalar-programas-por-consola-en-windows">Winget</a> |
 
 ## Inventario de cambios
 CMD query para obtener fecha cambio de contraseña e inicio de sesion
