@@ -251,17 +251,17 @@ winget upgrade
 
 winget search acrobat
 
-winget install 7-Zip
+winget install 7-Zip -silent
 winget install adobe.acrobat.reader.64-bit
 winget install PDFCreator
-winget install Google.Chrome
+winget install Google.Chrome -silent
 winget install Microsoft.Teams
 
 winget install videolan.vlc
 
 winget install BleachBit
 winget install Microsoft.PowerBI
-winget install OBSProject.OBSStudio
+winget install OBSProject.OBSStudio -silent
 
 winget install Microsoft.Powertoys
 winget install Microsoft.WindowsTerminal
