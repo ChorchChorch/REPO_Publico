@@ -263,6 +263,9 @@ winget install BleachBit
 winget install Microsoft.PowerBI
 winget install OBSProject.OBSStudio
 
+winget install Microsoft.Powertoys
+winget install Microsoft.WindowsTerminal
+
 winget download Microsoft.PowerBI
 ```
 ### Instalación de winget en Espacio aislado de Windows
