@@ -62,7 +62,9 @@ Y luego reiniciar PC
 ```
 Subst Z: \\192.168.0.1\folder
 ```
-
+### Backup de Drivers en Windows
+Backup de driver existentes con PS
+```Export-WindowsDriver -Online -Destination c:\driversbkp```
 
 
 
