@@ -54,7 +54,6 @@ Mas data
 
 •	/WORKSTATIONS: muestra hasta 8 equipos en la red desde los que podrá iniciar sesión un usuario.
 
-
 ### Upgrade de Lic WIN (adm)
 Como saltar el bloqueo que pide cuenta para activar windows, pues dentro del instalador de Windows ejecutandose presionamos Shift + F10 para obtener una consola y tipear **oobe\bypassnro** , reinicias y luego si te permite omitir este paso.
 Video de youtube con paso a paso https://youtu.be/xJawqqGomKw
@@ -67,4 +66,27 @@ sc config wuauserv start= auto & net start wuauserv
 changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
 exit
 exit
+
+### Tomar el control de una carpeta
+https://norfipc.com/utiles/como-administrar-cambiar-permisos-archivos-carpetas-windows.html
+
+#### W7
+```
+CALCS "D:\DATOS" /E /G Pepe:F
+```
+O navegar con el cmd y posicionarte en esa carpeta puntual, entonces podes omitir el destino 
+```
+CALCS /E /G Pepe:F
+```
+Para denegarle el acceso a los mismos archivos al usuario Andres:
+```
+CALCS  /D Andres
+```
+Para darle solo el permiso de leer el contenido de dichos archivos al usuario José:
+```
+CALCS  /P Jose:R
+```
+#### W8 y W10 W11
+```
+TAKEOWN /F "D:\System Volume Information" /R
 ```
