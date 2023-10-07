@@ -152,26 +152,4 @@ Add-AppxPackage Microsoft.VCLibs.x64.14.00.Desktop.appx
 Add-AppxPackage Microsoft.UI.Xaml.2.7.x64.appx
 Add-AppxPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 ```
-### Tomar el control de una carpeta
-https://norfipc.com/utiles/como-administrar-cambiar-permisos-archivos-carpetas-windows.html
 
-#### W7
-```
-CALCS "D:\DATOS" /E /G Pepe:F
-```
-O navegar con el cmd y posicionarte en esa carpeta puntual, entonces podes omitir el destino 
-```
-CALCS /E /G Pepe:F
-```
-Para denegarle el acceso a los mismos archivos al usuario Andres:
-```
-CALCS  /D Andres
-```
-Para darle solo el permiso de leer el contenido de dichos archivos al usuario José:
-```
-CALCS  /P Jose:R
-```
-#### W8 y W10 W11
-```
-TAKEOWN /F "D:\System Volume Information" /R
-```
