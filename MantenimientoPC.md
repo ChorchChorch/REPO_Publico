@@ -1,4 +1,7 @@
-# Hilo para mantgenimiento de PC
+# Hilo para mantenimiento de PC
+
+
+
 
 ## Monitoreo de Confiabilidad en en un equipo con Windows
 Ver en un calendario los problemas, warning etc que se dispararon 
@@ -64,8 +67,9 @@ Subst Z: \\192.168.0.1\folder
 ```
 ### Backup de Drivers en Windows
 Backup de driver existentes con PS
-```Export-WindowsDriver -Online -Destination c:\driversbkp```
-
+```
+Export-WindowsDriver -Online -Destination c:\driversbkp
+```
 ### Password de _WiFi
 Listar todas las redes Recordadas
 Preguntar por la aue nos interesa
@@ -73,7 +77,6 @@ Preguntar por la aue nos interesa
 netsh wlan show profile
 netsh wlan show profile name=nombredelperfil key=clear
 ```
-
 ### Instalar programas por consola en Windows
 Winget Instalar programas por consola en Windows. Solo puede correr una instancia de winget 
 Referencias en https://github.com/microsoft/winget-cli/releases/
