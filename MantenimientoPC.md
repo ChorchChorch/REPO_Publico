@@ -1,12 +1,21 @@
 # Hilo para mantenimiento de PC
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#limpieza-pc-con-windows">LimpiezaPC</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#zocalos-de-memoria-de-una-motherboard">RAM</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#bateria-notebook">Bateria</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#configurar-los-sitios-de-confianza-navegacion-web">ConfiazaNavegacion</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#reiniciar-stack-tcp-ip">TCP_IP</a> | 
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#backup-de-drivers-en-windows">BackupDrivers</a>
 
 
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#backup-de-drivers-en-windows">BackupDrivers</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#password-de-_wifi">PasswordWifi</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#instalar-programas-por-consola-en-windows">Winget</a> |
-<a href="">EspacioAislado</a>
-
-
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#zocalos-de-memoria-de-una-motherboard">RAM</a> | 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#mapea-ruta-de-red-sin-persistencia">UnidadDisco</a> |
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#bateria-notebook">Bateria</a> | 
+
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#limpieza-pc-con-windows">LimpiezaPC</a> 
+
+
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#configurar-los-sitios-de-confianza-navegacion-web">ConfiazaNavegacion</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#reiniciar-stack-tcp-ip">TCP_IP</a> | 
+
+ | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#password-de-_wifi">PasswordWifi</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#instalar-programas-por-consola-en-windows">Winget</a> |
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#instalaci%C3%B3n-de-winget-en-espacio-aislado-de-windows">EspacioAislado</a>
+
+
+
 
 
 ## Monitoreo de Confiabilidad en en un equipo con Windows
