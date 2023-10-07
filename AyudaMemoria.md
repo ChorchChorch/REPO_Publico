@@ -15,12 +15,7 @@ INDICES
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#aceleracion-hardware-y-recalculo-automatico">Exel aceleracion x hardware</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#habilitar-espacio-virtual">Habilitar espacio virtual</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#password-de-_wifi">Password de WIFI</a> |
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#instalar-programas-por-consola-en-windows">Winget</a> |
-
-
-### Backup de Drivers en Windows
-Backup de driver existentes con PS
-```Export-WindowsDriver -Online -Destination c:\driversbkp```
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/AyudaMemoria.md#instalar-programas-por-consola-en-windows">Winget</a> 
 
 ### Fecha de Cambio de Contraseña o Inicio Sesion
 > net user  	PEPE   /Domain | findstr /r /c:"^ *Nombre de usuario" /c:"^ *Cambio de contraseña"
