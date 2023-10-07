@@ -1,5 +1,6 @@
 # Hilo para mantenimiento de PC
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | 
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | <a href="">LimpiezaPC</a> | <a href="">RAM</a> | <a href="">Bateria</a> | <a href="">ConfiazaNavegacion</a> | <a href="">TCP_IP</a> | <a href="">UnidadDisco</a>
+
 
 
 
@@ -20,7 +21,7 @@ Fuerza las actualizaciones y la descarga inmediata
 wuauclt.exe /updatenow
 ```
 
-## Limpieza PC con Windows (adm)
+## Limpieza PC con Windows
 Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
 ```
 start cleanmgr.exe
@@ -55,7 +56,7 @@ powercfg /batteryreport
 start inetcpl.cpl
 ```
 
-### Reiniciar Stack TCP IP (adm)
+### Reiniciar Stack TCP IP
 ```
 netsh int ip reset
 ```
