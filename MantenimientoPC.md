@@ -1,5 +1,5 @@
 # Hilo para mantenimiento de PC
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#backup-de-drivers-en-windows">BackupDrivers</a>
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#backup-de-drivers-en-windows">BackupDrivers</a> |<a href=""https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#impresora> Impresora</a>
 
 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#zocalos-de-memoria-de-una-motherboard">RAM</a> | 
@@ -136,10 +136,10 @@ Add-AppxPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 ```
 
 ### Impresora
-
+```
 net stop spooler
 cd C:\WINDOWS\system32\spool\PRINTERS
 del *
 net start spooler
-
+```
 
