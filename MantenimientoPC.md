@@ -135,6 +135,11 @@ Add-AppxPackage Microsoft.UI.Xaml.2.7.x64.appx
 Add-AppxPackage Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle
 ```
 
+### Impresora
 
+net stop spooler
+cd C:\WINDOWS\system32\spool\PRINTERS
+del *
+net start spooler
 
 
