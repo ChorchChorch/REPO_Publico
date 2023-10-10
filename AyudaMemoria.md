@@ -102,6 +102,8 @@ Visualiza los escritorios en la parte inferior de la pantalla con las teclas Win
 Traslada la ventana de un escritorio a otro arrastrandola con el punetro del ratón. 
 De esta forma puedes trasladar una ventana de un escritorio a otro. Si quieres moverte entre escritorios presiona las teclas Control + Windows +Tecla de dirección, izquierda o derecha.
 
-rewinicio conytolador de video teclas
+### rewinicio conytolador de video teclas
 
 alñternayiva a reibiviar
+
+### celu viejo como antena wifi
