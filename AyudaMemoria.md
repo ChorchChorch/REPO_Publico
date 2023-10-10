@@ -90,3 +90,15 @@ Ejemplo de configiracion de un archivo para deploy rapido, guardar con extension
   </MappedFolders>
 </Configuration>
 ```
+
+### cambio entre multiples apantalals de escritorios w10
+El manejo de ventanas que nos solicitas en Windows 10 , puedes hacerlo de la siguiente forma para trasladar ventanas de un escritorio a otro utilizando el ratón de tu equipo.
+
+Realiza esto:
+
+Crea uno o más escritorios en tu equipo presionando la teclas Windows +Control+D.
+Abre la ventana que quieres trasladar.
+Visualiza los escritorios en la parte inferior de la pantalla con las teclas Windows +Tab (Tabulador).
+Traslada la ventana de un escritorio a otro arrastrandola con el punetro del ratón. 
+De esta forma puedes trasladar una ventana de un escritorio a otro. Si quieres moverte entre escritorios presiona las teclas Control + Windows +Tecla de dirección, izquierda o derecha.
+
