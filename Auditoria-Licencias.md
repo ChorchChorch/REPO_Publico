@@ -95,6 +95,12 @@ TAKEOWN /F "D:\System Volume Information" /R
 ### Averiguar si un puerto esta abierto o no
 
 desde powershell
-``` tnc subdominio.pepe.com.pe -port 4370 ``` o ``` tcping subdominio.pepe.com.pe 3389 ```
+```
+tnc subdominio.pepe.com.pe -port 4370
+```
+o desde cmd
+``` 
+tcping subdominio.pepe.com.pe 3389
+```
 
 
