@@ -167,3 +167,7 @@ y para sacar la salida a un archivo
 ```
 /output:D:\aplicaciones_instaladas.txt product get name,version
 ```
+o en HTML o sumar la ruta de instalacion (installlocation)
+```
+/output:D:\aplicaciones_instaladas.html product get name,version,installocation
+```
