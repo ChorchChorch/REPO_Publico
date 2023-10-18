@@ -86,7 +86,20 @@ Para darle solo el permiso de leer el contenido de dichos archivos al usuario Jo
 ```
 CALCS  /P Jose:R
 ```
+
 #### W8 y W10 W11
 ```
 TAKEOWN /F "D:\System Volume Information" /R
+```
+
+
+### Averiguar si un puerto esta abierto o no
+desde powershell
+```
+tnc subdominio.pepe.com.pe -port 4370
+```
+desde cmd bajando aparte tcping
+
+```
+tcping subdominio.pepe.com.pe 3389
 ```
