@@ -143,3 +143,12 @@ del *
 net start spooler
 ```
 
+###  Modo Dios y similares
+todas las funciones
+```
+explorer.exe shell:::{ED7BA470-8E54-465E-825C-99712043E01C}
+```
+modo dios
+```
+explorer.exe shell:::{ED7BA470-8E54-465E-825C-99712043E01C}
+```
