@@ -157,7 +157,10 @@ hidden C:\Users\%username%\AppData\Roaming\Microsoft\SystemCertificates
 ```
 shell:SystemCertificates
 ```
-
+Listado de APP de windows importantes
+```
+C:\Windows\explorer.exe shell:common administrative tools
+```
 ### ver istado de programas Instalados
 
 ```
