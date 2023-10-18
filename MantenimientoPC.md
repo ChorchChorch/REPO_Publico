@@ -157,3 +157,13 @@ hidden C:\Users\%username%\AppData\Roaming\Microsoft\SystemCertificates
 ```
 shell:SystemCertificates
 ```
+
+### ver istado de programas Instalados
+
+```
+wmic /node:IP /user:usuario product get name,version,vendor
+```
+y para sacar la salida a un archivo
+```
+/output:D:\aplicaciones_instaladas.txt product get name,version
+```
