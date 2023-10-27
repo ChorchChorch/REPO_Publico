@@ -174,3 +174,87 @@ o en HTML o sumar la ruta de instalacion (installlocation)
 ```
 /output:D:\aplicaciones_instaladas.html product get name,version,installocation
 ```
+
+### Windows defender por CMD
+
+https://www.softzone.es/programas/antivirus/buscar-virus-cmd-windows-defender/
+
+
+Actualizar firma de virus
+```
+C:\Program Files\Windows Defender>MpCmdRun.exe -SignatureUpdate
+```
+Tipos de scan0: análisis por defecto.
+1: análisis rápido.
+2: análisis completo del PC.
+3: análisis personalizado con un directorio propio.
+
+
+Scan Full
+```
+C:\Program Files\Windows Defender>MpCmdRun.exe -scan -2
+```
+Scan Rapido
+```
+C:\Program Files\Windows Defender>MpCmdRun.exe -scan -1
+```
+```
+C:\Program Files\Windows Defender>MpCmdRun.exe -Scan -3 -File "C:\Usersusuario"
+```
+
+```
+MpCmdRun -Scan -ScanType -BootSectorScan
+```
+
+Posteriormente, vamos a ejecutar el siguiente comando para poder desinstalar las definiciones más recientes:
+
+```
+MpCmdRun -RemoveDefinitions -All
+```
+La opción -All se encargará de restaurar las actualizaciones anteriores del antivirus de Microsoft.
+
+Igualmente, podemos desinstalar solo las firmas dinámicas, escribiendo el siguiente comando y pulsando Enter:
+
+```
+MpCmdRun -RemoveDefinitions -DynamicSignatures
+```
+Cancelar tareas en marcha
+
+En el caso de que hayamos ejecutado por error un comando y Windows Defender ha empezado a analizar nuestro PC posiblemente nos echaremos las manos al a cabeza. Y es que, al no tener la interfaz abierta, no podremos controlar la actividad del antivirus desde ella. Sin embargo, podemos echar mano de un truco gracias al cual vamos a poder detener cualquier escaneo manual que se encuentre en marcha. Para ello, simplemente debemos ejecutar este comando para detener todo lo que haya en ejecución:
+
+```
+MpCmdRun -Cancel
+```
+
+--------
+También desde PowerShell
+PowerShell es la evolución de la línea de comandos de Windows creada para cubrir las carencias que ofrecía CMD a la hora de trabajar en redes. Gracias PowerShell, los administradores de sistemas pueden acceder de forma remota a equipos a través de scripts y ejecutar múltiples comandos y múltiples dispositivos a la vez. Teniendo en cuenta esta funcionalidad, obviamente con PowerShell también podemos buscar virus en el equipo, al igual que actualizar el antivirus.
+
+Lo primero que debemos hacer para acceder a PowerShell y analizar el equipo en busca de virus es ejecutar la aplicación como administrador y actualizar Windows Defender para asegurarnos que está preparado para detectar las vulnerabilidades más recientes. Para ello, utilizamos el comando
+
+```
+Update-MpSignature
+```
+Para analizar el equipo en busca de virus, el comando que vamos a utilizar es el siguiente para realizar un escaneo rápido:
+
+```
+Start-MpScan -ScanType QuickScan
+```
+Buscar Viurus PowerShell
+
+Pero, si queremos realizar un escaneo en profundidad para verificar todos y cada uno de los archivos que forman parte de nuestro equipo, debemos sustituir en el comando anterior, QuickScan por FullScan. Este proceso lleva mucho más tiempo, por lo podemos dejar el ordenador trabajando en segundo plano sin cerrar la ventana de PowerShell.
+
+```
+Start-MpScan -ScanType FullScan
+```
+A través de PowerShell podemos crear un script que se ejecute periódicamente para que, a partir de determinada hora, analice el equipo en busca de software malicioso.
+
+El comando que debemos utilizar para hacer un escaneo rápido sería:
+
+```
+Set-MpPreference -ScanScheduleQuickScanTime 22:00:00
+```
+Para realizar un escaneo completo, el comando sería el siguiente:
+```
+Set-MpPreference -ScanScheduleFullScanTime 22:00:00
+```
