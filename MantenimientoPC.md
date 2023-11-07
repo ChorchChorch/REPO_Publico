@@ -258,3 +258,7 @@ Para realizar un escaneo completo, el comando sería el siguiente:
 ```
 Set-MpPreference -ScanScheduleFullScanTime 22:00:00
 ```
+### Test de conexion a BD
+Crear un archivo y renombrarlo con la extension UDL
+
+![TestConexionBD](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/TestConexionBD_UDL.jpg)
