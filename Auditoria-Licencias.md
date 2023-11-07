@@ -66,6 +66,9 @@ sc config wuauserv start= auto & net start wuauserv
 changepk.exe /productkey VK7JG-NPHTM-C97JM-BBBBB-AAAAA
 exit
 exit
+
+REM **Saber si se activo Windows**
+ slmgr. vbs/xpr
 ```
 ### Tomar el control de una carpeta
 https://norfipc.com/utiles/como-administrar-cambiar-permisos-archivos-carpetas-windows.html
