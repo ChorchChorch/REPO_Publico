@@ -68,7 +68,7 @@ exit
 exit
 
 REM **Saber si se activo Windows**
- slmgr. vbs/xpr
+slmgr.vbs/xpr
 ```
 ### Tomar el control de una carpeta
 https://norfipc.com/utiles/como-administrar-cambiar-permisos-archivos-carpetas-windows.html
