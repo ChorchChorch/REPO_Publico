@@ -1,5 +1,5 @@
 # Hilo para mantenimiento de PC
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#backup-de-drivers-en-windows">BackupDrivers</a> |<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#impresora"> Impresora</a>
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#backup-de-drivers-en-windows">BackupDrivers</a> |<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#impresora"> Impresora</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#Estado Smart de Discos Rigidos"> S.M.A.R.T. HDD</a>
 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#zocalos-de-memoria-de-una-motherboard">RAM</a> | 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#mapea-ruta-de-red-sin-persistencia">UnidadDisco</a> |
@@ -26,6 +26,11 @@ Sino recorrer esta ruta
 > Panel de control\Sistema y seguridad\Seguridad y mantenimiento\Monitor de confiabilidad
 
 ![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
+
+## Estado Smart de Discos Rigidos
+```
+WMIC /Output:STDOUT diskdrive get status
+```
 
 ## Forzar updates Windows
 Fuerza las actualizaciones y la descarga inmediata
