@@ -31,6 +31,12 @@ Sino recorrer esta ruta
 ```
 WMIC /Output:STDOUT diskdrive get status
 ```
+O sino utilizando PowerShell
+```
+PowerShell "Get-PhysicalDisk | Format-Table -AutoSize"
+```
+
+![SMART HDD con PowerShell](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/SMART_HDD.JPG)
 
 ## Forzar updates Windows
 Fuerza las actualizaciones y la descarga inmediata
