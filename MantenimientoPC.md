@@ -93,7 +93,9 @@ Subst Z: \\192.168.0.1\folder
 Con persitencia
 ```
 NET USE Z: \\server\datos /PERSISTENT:YES
+NET USE f: \\server\datos /PERSISTENT:YES /user:dominio\user password
 ```
+
 ### Backup de Drivers en Windows
 Backup de driver existentes con PS
 ```
