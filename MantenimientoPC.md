@@ -281,13 +281,13 @@ Set-MpPreference -ScanScheduleFullScanTime 22:00:00
 ```
 
 ### Contraseñas guardadas en Windows
-No se cual seria la diferencia con el baul de contraseñas pero aqui va.
+No se cual seria la diferencia con el baul de contraseñas pero aqui va.(revise y es lo mismo)
 Abriremos una nueva ventana de Ejecutar y escribiremos la sentencia que mostramos a continuación.
 ```
 rundll32.exe keymgr.dll, KRShowKeyMgr
 ```
 Aparecerá una nueva ventana emergente llamada Nombres de usuario y contraseñas almacenadas.
-![ListaContrasenas](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/TestConexionBD_UDL.jpg)
+![ListaContrasenas](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/ClavesGuardadasWindows.JPG)
 
 ### Test de conexion a BD
 Crear un archivo y renombrarlo con la extension UDL
