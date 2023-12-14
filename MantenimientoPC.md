@@ -2,7 +2,7 @@
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#monitoreo-de-confiabilidad-en-en-un-equipo-con-windows">HistoricoConfiabilidad</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#forzar-updates-windows">UpdateWindows</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#backup-de-drivers-en-windows">BackupDrivers</a> |<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#impresora"> Impresora</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#estado-smart-de-discos-rigidos"> S.M.A.R.T. HDD</a>
 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#zocalos-de-memoria-de-una-motherboard">RAM</a> | 
-<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#mapea-ruta-de-red-sin-persistencia">UnidadDisco</a> |
+<a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#mapea-ruta-de-red">UnidadDisco</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#bateria-notebook">Bateria</a> | 
 
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#limpieza-pc-con-windows">LimpiezaPC</a> 
@@ -85,9 +85,14 @@ netsh int ip reset
 ```
 Y luego reiniciar PC
 
-### Mapea ruta de red sin persistencia
+### Mapea ruta de red 
+Sin persistencia
 ```
 Subst Z: \\192.168.0.1\folder
+```
+Con persitencia
+```
+NET USE Z: \\server\datos /PERSISTENT:YES
 ```
 ### Backup de Drivers en Windows
 Backup de driver existentes con PS
