@@ -293,3 +293,8 @@ Aparecerá una nueva ventana emergente llamada Nombres de usuario y contraseñas
 Crear un archivo y renombrarlo con la extension UDL
 
 ![TestConexionBD](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/TestConexionBD_UDL.jpg)
+
+### Administrador de Hardware
+```
+devmgmt.msc  
+```
