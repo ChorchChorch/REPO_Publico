@@ -107,3 +107,23 @@ De esta forma puedes trasladar una ventana de un escritorio a otro. Si quieres m
 alñternayiva a reibiviar
 
 ### celu viejo como antena wifi
+
+
+### Busqueda en GOOGLE
+
+" " Con todas las palabras
+- Sin las palabras
+AND Conector Booleano busca Palabra1 y Palabra2
+OR Palabra2 Conector Booleano busca Palabra1 o Palabra2
+filetype: Búsqueda por tipo de archivo
+site: Búsqueda por Dominio
+intitle: Búsqueda en el título
+allinurl: Búsqueda solo en la URL
+allintext: Búsqueda solo en el texto
+allintitle: Búsqueda solo en el título
+allinanchor: Búsqueda en los links de la página
+~ Sinónimos
+* Cercanía
++ Inclusión
+define: Significados
+
