@@ -298,3 +298,10 @@ Crear un archivo y renombrarlo con la extension UDL
 ```
 devmgmt.msc  
 ```
+### Relevamiento de Flota
+```
+Get-WmiObject Win32_OperatingSystem -ComputerName 127.0.0.1
+Get-WmiObject Win32_ComputerSystem -ComputerName 127.0.0.1
+Get-WmiObject Win32_BIOS -ComputerName 127.0.0.1
+Get-WmiObject Win32_LogicalDisk -Filter "DeviceID='C:'" -ComputerName 127.0.0.1
+```
