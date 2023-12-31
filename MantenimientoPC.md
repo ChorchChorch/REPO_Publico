@@ -59,6 +59,7 @@ DISM /Online /Cleanup-Image /ScanHealth
 DISM /Online /Cleanup-Image /restorehealth
  
 sfc /scannow
+sigverif
 gpupdate /force
 gpresult -r
 ```
