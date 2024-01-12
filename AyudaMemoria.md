@@ -34,6 +34,11 @@ INDICES
 
 =CONCATENAR(IZQUIERDA(A6,70),REPETIR(" ",110),DERECHA(A6,LARGO(A6)-180))
 ```
+### Agregado de Punto en Productos
+```
+SI(LARGO(H1)>12;H1;SI(LARGO(H1)=9;CONCATENAR(IZQUIERDA(H1;4);".";DERECHA(H1;5));SI(LARGO(H1=12);CONCATENAR(IZQUIERDA(H1;6);".";DERECHA(H1;6)))))
+```
+
 ## Aceleracion Hardware y recalculo automatico
 
 Desde Excel abierto ves a "Archivo" > "Opciones" > "Avanzadas" en el apartado "Mostrar" marca, si no lo está, "Deshabilitar aceleración gráfica de hardware", "Aceptar". 
