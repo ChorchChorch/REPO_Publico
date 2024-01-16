@@ -68,6 +68,11 @@ gpresult -r
 wmic memphysical get MaxCapacity, MemoryDevices
 wmic memorychip get devicelocator, capacity
 ```
+### detectar errores en la memoria RAM del PC
+Abrira una ventana de Windows preguntando si queres correrlo de manera inmedia (reiniciando) o en el porximo reinicio 
+```
+mdsched.exe
+```
 ![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
 
 ### Bateria Notebook
