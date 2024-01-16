@@ -45,6 +45,7 @@ wuauclt.exe /updatenow
 ```
 
 ## Limpieza PC con Windows
+En el buscador de windows escribis "Sensor de almacenamiento". Te a permitir borrar informacion vieja guardada
 Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
 ```
 start cleanmgr.exe
