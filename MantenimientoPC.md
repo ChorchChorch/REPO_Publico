@@ -79,7 +79,21 @@ powercfg /batteryreport
 ```
 start inetcpl.cpl
 ```
-
+### CMD administrar usuarios
+```
+para listar ususarios
+Net User 
+Pisar la contraseña de usuario existente. Nombre de ususario logitud max 20 caracteres
+Net User <nombreUsuario> <Contraseña> 
+O con asterisco toma de manera interactiva (por cmd) unanueva contraseña
+Net User <nombreUsuario> *
+agregar nuevo uusario
+Net User <nombreUsuario> <Contraseña> /add 
+activar ususario
+Net User <nombreUsuario> /active
+Para lanzar la capa grafica de usuarios
+control userpasswords2
+```
 ### Reiniciar Stack TCP IP
 ```
 netsh int ip reset
