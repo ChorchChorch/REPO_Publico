@@ -47,12 +47,15 @@ start %temp%
 start C:\Windows\Temp
 cls
 
+# Fuerza update de windows
+wuauclt.exe /updatenow
+#
+#
 # Fecha de ultimo reinicio
 (gcim Win32_OperatingSystem).LastBootUpTime
 # Fecha de instalacion  de Windows
 (Get-CimInstance -Class Win32_OperatingSystem).InstallDate
-# Fuerza update de windows
-wuauclt.exe /updatenow
+
 # Estado de HDD
 Get-PhysicalDisk | Format-Table -AutoSize
 
