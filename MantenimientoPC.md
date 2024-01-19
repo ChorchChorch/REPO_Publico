@@ -38,21 +38,6 @@ PowerShell "Get-PhysicalDisk | Format-Table -AutoSize"
 
 ![SMART HDD con PowerShell](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/SMART_HDD.JPG)
 
-## Forzar updates Windows
-Fuerza las actualizaciones y la descarga inmediata
-```
-wuauclt.exe /updatenow
-```
-## Fecha de instalacion de WIndows
-Promero desde PS y luego desde CMD
-```
-(Get-CimInstance -Class Win32_OperatingSystem).InstallDate
-REM  SO español   
-systeminfo |find /i "original"
-REM SO Ingles    
-systeminfo |find /i "install"
-```
-
 ## Limpieza PC con Windows
 En el buscador de windows escribis "Sensor de almacenamiento". Te a permitir borrar informacion vieja guardada
 Veamos las *tareas en segundo plano*  y tambien *administrador de tareas* solapa inicio, luego:
@@ -61,6 +46,13 @@ start cleanmgr.exe
 start %temp%
 start C:\Windows\Temp
 cls
+
+# Fecha de ultimo reinicio
+(gcim Win32_OperatingSystem).LastBootUpTime
+# Fecha de instalacion  de Windows
+(Get-CimInstance -Class Win32_OperatingSystem).InstallDate
+ # Fuerza update de windows
+wuauclt.exe /updatenow
 
 systeminfo
  
