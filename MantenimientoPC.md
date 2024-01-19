@@ -51,8 +51,10 @@ cls
 (gcim Win32_OperatingSystem).LastBootUpTime
 # Fecha de instalacion  de Windows
 (Get-CimInstance -Class Win32_OperatingSystem).InstallDate
- # Fuerza update de windows
+# Fuerza update de windows
 wuauclt.exe /updatenow
+# Estado de HDD
+Get-PhysicalDisk | Format-Table -AutoSize
 
 systeminfo
  
