@@ -31,12 +31,6 @@ Sino recorrer esta ruta
 ```
 WMIC /Output:STDOUT diskdrive get status
 ```
-O sino utilizando PowerShell
-```
-PowerShell "Get-PhysicalDisk | Format-Table -AutoSize"
-```
-
-![SMART HDD con PowerShell](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/SMART_HDD.JPG)
 
 ## Limpieza PC con Windows
 En el buscador de windows escribis "Sensor de almacenamiento". Te a permitir borrar informacion vieja guardada
@@ -49,15 +43,18 @@ cls
 
 # Fuerza update de windows
 wuauclt.exe /updatenow
+cls
 #
 #
 # Fecha de ultimo reinicio
 (gcim Win32_OperatingSystem).LastBootUpTime
 # Fecha de instalacion  de Windows
 (Get-CimInstance -Class Win32_OperatingSystem).InstallDate
-
 # Estado de HDD
 Get-PhysicalDisk | Format-Table -AutoSize
+# Zocalos de memoria de una MotherBoard
+wmic memphysical get MaxCapacity, MemoryDevices
+wmic memorychip get devicelocator, capacity
 
 systeminfo
  
@@ -70,17 +67,14 @@ sigverif
 gpupdate /force
 gpresult -r
 ```
-### Zocalos de memoria de una MotherBoard
-```
-wmic memphysical get MaxCapacity, MemoryDevices
-wmic memorychip get devicelocator, capacity
-```
+![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
+![SMART HDD con PowerShell](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/SMART_HDD.JPG)
+
 ### detectar errores en la memoria RAM del PC
 Abrira una ventana de Windows preguntando si queres correrlo de manera inmedia (reiniciando) o en el porximo reinicio 
 ```
 mdsched.exe
 ```
-![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
 
 ### Bateria Notebook
 ```
