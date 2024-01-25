@@ -30,8 +30,6 @@ Sino recorrer esta ruta
 ## Estado Smart de Discos Rigidos
 ```
 WMIC /Output:STDOUT diskdrive get status
-REM Para deshabilitar la hibernación
-POWERCFG -H OFF
 ```
 
 ## Limpieza PC con Windows
@@ -80,6 +78,8 @@ mdsched.exe
 ### Bateria Notebook
 ```
 powercfg /batteryreport
+REM Para deshabilitar la hibernación
+POWERCFG -H OFF
 ```
 
 ### Configurar los sitios de confianza navegacion web
