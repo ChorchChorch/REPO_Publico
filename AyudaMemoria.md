@@ -118,7 +118,9 @@ De esta forma puedes trasladar una ventana de un escritorio a otro. Si quieres m
 
 ### rewinicio conytolador de video teclas
 
-alñternayiva a reibiviar
+Ctrol + Shift + WIN + B
+
+[alñternayiva a reibiviar](https://www.wikihow.com/images/thumb/0/02/Reset-Graphics-Driver-Step-1-Version-2.jpg/v4-728px-Reset-Graphics-Driver-Step-1-Version-2.jpg.webp)
 
 ### celu viejo como antena wifi
 
