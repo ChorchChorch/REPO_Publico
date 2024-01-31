@@ -22,6 +22,14 @@ INDICES
 > 
 > https: //api.whatsapp.com/send?phone=3415440147
 
+## Abreviaturas de oficina
+PTO (paid time off) - Día libre pagado
+ASAP (as soon as posible) - Tan pronto como sea posible
+AFK (away from keyboard) - Me alejo de la computadora
+BRB (be right back) - Ya vuelvo
+All hands - Toda la empresa
+Milestone - Hito
+
 ## EXCEL
 
 ### Manejo TXT percepciones
@@ -96,7 +104,7 @@ Ejemplo de configiracion de un archivo para deploy rapido, guardar con extension
 </Configuration>
 ```
 
-### cambio entre multiples apantalals de escritorios w10
+### cambio entre multiples paantallas de escritorios W 10
 El manejo de ventanas que nos solicitas en Windows 10 , puedes hacerlo de la siguiente forma para trasladar ventanas de un escritorio a otro utilizando el ratón de tu equipo.
 
 Realiza esto:
