@@ -23,12 +23,12 @@ INDICES
 > https: //api.whatsapp.com/send?phone=3415440147
 
 ## Abreviaturas de oficina
-PTO (paid time off) - Día libre pagado
-ASAP (as soon as posible) - Tan pronto como sea posible
-AFK (away from keyboard) - Me alejo de la computadora
-BRB (be right back) - Ya vuelvo
-All hands - Toda la empresa
-Milestone - Hito
+- PTO (paid time off) - Día libre pagado
+- ASAP (as soon as posible) - Tan pronto como sea posible
+- AFK (away from keyboard) - Me alejo de la computadora
+- BRB (be right back) - Ya vuelvo
+- All hands - Toda la empresa
+- Milestone - Hito
 
 ## EXCEL
 
