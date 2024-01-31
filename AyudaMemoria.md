@@ -123,8 +123,8 @@ Ctrol + Shift + WIN + B
 ![alñternayiva a reibiviar](https://www.wikihow.com/images/thumb/0/02/Reset-Graphics-Driver-Step-1-Version-2.jpg/v4-728px-Reset-Graphics-Driver-Step-1-Version-2.jpg.webp)
 
 ### Rotar pantalla 
-!(https://i.blogs.es/e364c9/pantalla/1366_2000.jpg)
 Ctrl + Alt + flecha 
+![rotar pantalla](https://i.blogs.es/e364c9/pantalla/1366_2000.jpg)
 
 ### celu viejo como antena wifi
 
