@@ -65,7 +65,11 @@ sigverif
 gpupdate /force
 gpresult -r
 ```
-
+### Ejecucion de un benckmark
+La consola de Windows ejecuta un benchmark completo que analiza el rendimiento del equipo y todos sus componentes. Este comando, el WINSAT, también puede ser acompañado de otros apellidos más allá de FORMAL, como por ejemplo CPUFORMAL para medir sólo el rendimiento de la CPU, MEMFORMAL para el de la RAM, GRAPHICSFORMAL para la tarjeta gráfica o DISKFORMAL para las unidades de almacenamiento.
+```
+WINSAT FORMAL
+```
 ![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
 ![SMART HDD con PowerShell](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/SMART_HDD.JPG)
 
@@ -326,4 +330,12 @@ Get-WmiObject Win32_OperatingSystem -ComputerName 127.0.0.1
 Get-WmiObject Win32_ComputerSystem -ComputerName 127.0.0.1
 Get-WmiObject Win32_BIOS -ComputerName 127.0.0.1
 Get-WmiObject Win32_LogicalDisk -Filter "DeviceID='C:'" -ComputerName 127.0.0.1
+getmac /s 127.0.0.1
+```
+
+
+### Desconectarse de la PC sin reiniciarla
+Cierra la sesión del usuario con el que estás accediendo al ordenador, aunque manteniendo el ordenador encendido.
+```
+LOGOFF
 ```
