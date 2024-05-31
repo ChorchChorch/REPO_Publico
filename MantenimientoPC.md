@@ -166,6 +166,9 @@ winget download Microsoft.PowerBI
 winget uninstall Zoom.Zoom --silent
 ```
 
+### Todos los comandos CPL y otros en CMD
+https://protegermipc.net/2016/08/30/archivos-cpl/
+
 ### Instalación de winget en Espacio aislado de Windows
 https://learn.microsoft.com/es-es/windows/package-manager/winget/#install-winget-on-windows-sandbox
 Espacio aislado de Windows proporciona un entorno de escritorio ligero para ejecutar aplicaciones de forma segura y de forma aislada. El software instalado dentro del entorno de Espacio aislado de Windows permanece "aislado" y se ejecuta por separado desde el equipo host. El Espacio aislado de Windows no dispone de winget ni de la aplicación de Microsoft Store, por lo que tendrá que descargar el paquete winget más reciente de la página de versiones de winget en GitHub.
