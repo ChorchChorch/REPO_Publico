@@ -12,6 +12,8 @@
  | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#password-de-_wifi">PasswordWifi</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#instalar-programas-por-consola-en-windows">Winget</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#instalaci%C3%B3n-de-winget-en-espacio-aislado-de-windows">EspacioAislado</a>
 
+## Video reparar Store de MS
+https://youtu.be/PunBh9WFk4s
 
 
 
