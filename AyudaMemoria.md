@@ -32,15 +32,17 @@ INDICES
 
 ## EXCEL
 
-### Manejo TXT percepciones
+### Manejo TXT percepciones Fuente momoestaciada **CASCADIA**
 
 * 33715317619  E  -.----  202309  ADRIAN OSCAR MARQUES DOS SANTOS  DAVID                                                                                                                  -----
 * 
 * 33715317619  E  -.----  202309  ADRIAN OSCAR MARQUES DOS SANTOS  DAVID JESUS MARQUES DOS SANTOS SOCIEDAD LEY 19550 CAP  I SECC  IV                                                      -----
 ```
-=CONCATENAR(IZQUIERDA(A7,70),REPETIR(" ",110),DERECHA(A7,LARGO(A7)-180))
 
-=CONCATENAR(IZQUIERDA(A6,70),REPETIR(" ",110),DERECHA(A6,LARGO(A6)-180))
+=CONCATENAR(IZQUIERDA(A7;70);REPETIR(" ";110);DERECHA(A7;LARGO(A7)-180))
+
+
+=CONCATENAR(IZQUIERDA(A6;70);REPETIR(" ";110),DERECHA(A6;LARGO(A6)-180))
 ```
 ### Agregado de Punto en Productos
 ```
