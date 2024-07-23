@@ -61,6 +61,10 @@ Cierra Excel y lo vuelves a abrir para comprobar si ha mejorado
 ### Como agregar a la cinta de opciones el acceso rapido seleccionar solo celdas visibles
 ![personalizacintaopcionesexel](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/PersonalizarCintaOpcionesEXEL.JPG)
 
+### Winmerge
+Muy bueno para comaorar carpetas y archivos, ademas es licencia libre me parece GNU
+https://winmerge.org/translations/?lang=es
+
 ### Listado de Grandes Clientes Regimen MiPYME
 
 https://servicioscf.afip.gob.ar/facturadecreditoelectronica/Listado-RFCE-Mi-PyMe.asp
