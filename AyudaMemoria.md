@@ -42,7 +42,7 @@ INDICES
 =CONCATENAR(IZQUIERDA(A7;70);REPETIR(" ";110);DERECHA(A7;LARGO(A7)-180))
 
 
-=CONCATENAR(IZQUIERDA(A6;70);REPETIR(" ";110),DERECHA(A6;LARGO(A6)-180))
+=CONCATENAR(IZQUIERDA(A6;70);REPETIR(" ";110);DERECHA(A6;LARGO(A6)-180))
 ```
 UNICODE 65001 (decimal DefaultCPG)
 https://youtu.be/MfQmqjIVksE
@@ -60,6 +60,9 @@ Cierra Excel y lo vuelves a abrir para comprobar si ha mejorado
 
 ### Como agregar a la cinta de opciones el acceso rapido seleccionar solo celdas visibles
 ![personalizacintaopcionesexel](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/PersonalizarCintaOpcionesEXEL.JPG)
+
+### VCARD tarjeta de presentacion escaneable por QR
+https://qrplanet.com/es#vcard
 
 ### Winmerge
 Muy bueno para comaorar carpetas y archivos, ademas es licencia libre me parece GNU
