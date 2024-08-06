@@ -72,6 +72,22 @@ https://winmerge.org/translations/?lang=es
 QuickhashGUI-v3.3.2-Windows 
 https://www.quickhash-gui.org/
 
+- SHA-3 (256 bit): Este es uno de los algoritmos más seguros actualmente disponibles y está diseñado para ser resistente a ataques conocidos.
+
+- SHA512: Proporciona una mayor seguridad que SHA256 debido a su longitud de salida más larga. A pesar de que SHA-3 es más reciente, SHA512 sigue siendo muy seguro.
+
+- SHA256: Muy seguro y ampliamente utilizado. Su longitud de salida de 256 bits ofrece una buena protección contra ataques.
+
+- Blake2B (256 bit): Ofrece una alta seguridad con una longitud de hash de 256 bits y es conocido por su velocidad y eficiencia. Aunque más reciente que SHA2, es muy robusto.
+
+- Blake3: También muy seguro y rápido, con una longitud de hash de 256 bits. Blake3 se diseñó para ser rápido y resistente a colisiones.
+
+- SHA1: Menos seguro que los anteriores debido a vulnerabilidades conocidas. Aunque todavía se usa, no se recomienda para nuevas implementaciones.
+
+- MD5: Conocido por sus debilidades y vulnerabilidades, especialmente a ataques de colisión. No se debe usar para fines de seguridad modernos.
+
+- CRC32: No es un algoritmo de hash criptográfico y está diseñado principalmente para la detección de errores en datos. No ofrece seguridad criptográfica adecuada.
+
 ### Listado de Grandes Clientes Regimen MiPYME
 
 https://servicioscf.afip.gob.ar/facturadecreditoelectronica/Listado-RFCE-Mi-PyMe.asp
