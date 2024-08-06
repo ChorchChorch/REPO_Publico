@@ -68,6 +68,10 @@ https://qrplanet.com/es#vcard
 Muy bueno para comaorar carpetas y archivos, ademas es licencia libre me parece GNU
 https://winmerge.org/translations/?lang=es
 
+### Calcular HASH
+QuickhashGUI-v3.3.2-Windows 
+https://www.quickhash-gui.org/
+
 ### Listado de Grandes Clientes Regimen MiPYME
 
 https://servicioscf.afip.gob.ar/facturadecreditoelectronica/Listado-RFCE-Mi-PyMe.asp
