@@ -12,11 +12,15 @@
  | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#password-de-_wifi">PasswordWifi</a> | <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#instalar-programas-por-consola-en-windows">Winget</a> |
 <a href="https://github.com/ChorchChorch/REPO_Publico/blob/master/MantenimientoPC.md#instalaci%C3%B3n-de-winget-en-espacio-aislado-de-windows">EspacioAislado</a>
 
-## Video reparar Store de MS
+### Video reparar Store de MS
 https://youtu.be/PunBh9WFk4s
 
+### BCUninstaller 
+Es un desinstalador de programas para Windows de código abierto que cuenta con funciones avanzadas de limpieza. Cuando desinstalamos un programa desde Windows, este suele dejar en el sistema todo tipo de archivos residuales repartidos por el disco duro.
 
+Gracias a BCU, vamos a poder eliminar todo tipo de aplicaciones y juegos, forzando al sistema a eliminar todos los datos residuales que ha dejado el programa en nuestro ordenador. Además, es el propio programa el que detecta y elimina todos estos datos, por lo que nosotros no tendremos que hacer nada para llevar a cabo la limpieza.
 
+https://www.bcuninstaller.com/
 
 ## Monitoreo de Confiabilidad en en un equipo con Windows
 Ver en un calendario los problemas, warning etc que se dispararon 
