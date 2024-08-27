@@ -59,6 +59,8 @@ cls
 REM Zocalos de memoria de una MotherBoard
 wmic memphysical get MaxCapacity, MemoryDevices
 wmic memorychip get devicelocator, capacity
+REM Testea memoria RAM
+start mdsched.exe
 
 systeminfo
  
