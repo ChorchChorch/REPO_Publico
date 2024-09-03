@@ -113,6 +113,12 @@ Net User <nombreUsuario> /active
 Para lanzar la capa grafica de usuarios
 control userpasswords2
 ```
+
+### Hardening Celulares Android - MDM
+MDM, es la abreviatura de Mobile Device Management y para eso a bajo costo tenes **AppLock** con capa gratis (con publicidad) sino valia alrededor de 3 dolares
+Ver como es el tema de licienciamiento
+https://play.google.com/store/apps/details?id=com.domobile.applockwatcher&hl=es_AR&pli=1
+
 ### Reiniciar Stack TCP IP
 ```
 netsh int ip reset
