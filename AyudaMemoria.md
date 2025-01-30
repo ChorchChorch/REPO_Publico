@@ -38,6 +38,7 @@ INDICES
 * 
 * 33715317619  E  -.----  202309  ADRIAN OSCAR MARQUES DOS SANTOS  DAVID JESUS MARQUES DOS SANTOS SOCIEDAD LEY 19550 CAP  I SECC  IV                                                      -----
 ```
+El largo es 188 para Acreditan   y 183 para Coeficientes
 
 =CONCATENAR(IZQUIERDA(A7;70);REPETIR(" ";110);DERECHA(A7;LARGO(A7)-180))
 
