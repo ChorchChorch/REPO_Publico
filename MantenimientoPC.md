@@ -58,7 +58,9 @@ cls
 
 REM Zocalos de memoria de una MotherBoard
 wmic memphysical get MaxCapacity, MemoryDevices
-wmic memorychip get devicelocator, capacity
+wmic memorychip get devicelocator, capacity , memorirytipe
+REM Valores posibles para memorirytipe -> 21 es DDR2 , 24 es DDR3 , 26 es DDR4 y 30 es DDR5
+
 REM Testea memoria RAM
 start mdsched.exe
 
