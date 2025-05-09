@@ -95,6 +95,16 @@ powercfg /batteryreport
 REM Para deshabilitar la hibernación
 POWERCFG -H OFF
 ```
+### Evitar que PC de mesa entre en Ahorro de energia 
+powercfg -h off
+powercfg -change -standby-timeout-ac 0
+powercfg -change -monitor-timeout-ac 0
+powercfg -change -disk-timeout-ac 0
+```
+powercfg /batteryreport
+REM Para deshabilitar la hibernación
+POWERCFG -H OFF
+```
 
 ### Configurar los sitios de confianza navegacion web
 ```
