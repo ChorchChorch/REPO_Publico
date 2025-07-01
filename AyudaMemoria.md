@@ -181,3 +181,6 @@ allinanchor: Búsqueda en los links de la página
 + Inclusión
 define: Significados
 
+### Usuarios de escritorio remoto
+LUSRMGR.MSC
+
