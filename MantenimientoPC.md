@@ -74,6 +74,11 @@ sfc /scannow
 sigverif
 gpupdate /force
 gpresult -r
+
+slmgr /dli    REM  Muestra información de la licencia actual (tipo de activación, estado
+slmgr /xpr    REM  Muestra si la licencia es permanente o tiene fecha de expiración.
+slmgr /dlv    REM  Muestra detalles más extensos, como canal de licencia (OEM, Retail, Volume)
+
 ```
 ### Ejecucion de un benckmark
 La consola de Windows ejecuta un benchmark completo que analiza el rendimiento del equipo y todos sus componentes. Este comando, el WINSAT, también puede ser acompañado de otros apellidos más allá de FORMAL, como por ejemplo CPUFORMAL para medir sólo el rendimiento de la CPU, MEMFORMAL para el de la RAM, GRAPHICSFORMAL para la tarjeta gráfica o DISKFORMAL para las unidades de almacenamiento.
