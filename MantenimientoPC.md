@@ -105,10 +105,11 @@ REM Para deshabilitar la hibernación
 POWERCFG -H OFF
 ```
 ### Evitar que PC de mesa entre en Ahorro de energia 
-powercfg -h off
-powercfg -change -standby-timeout-ac 0
-powercfg -change -monitor-timeout-ac 0
-powercfg -change -disk-timeout-ac 0
+powercfg -h off                            REM Desactiva la hibernación.
+powercfg -change -standby-timeout-ac 0     REM Evita que el sistema entre en suspensión automática
+powercfg -change -monitor-timeout-ac 0     REM Evita que la pantalla se apague automáticamente
+powercfg -change -disk-timeout-ac 0        REM Evita que los discos duros se apaguen automáticamente
+
 ```
 
 ### Configurar los sitios de confianza navegacion web
