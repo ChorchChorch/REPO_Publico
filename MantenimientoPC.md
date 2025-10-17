@@ -33,6 +33,13 @@ Sino recorrer esta ruta
 
 ![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
 
+## Quitar limite de datos en Windows
+```
+Red e Internet > Configuracion avanzada de red > Uso de datos
+En editar limite poner **DATOS ILIMITADOS**
+```
+
+
 ## Estado Smart de Discos Rigidos
 ```
 WMIC /Output:STDOUT diskdrive get status
