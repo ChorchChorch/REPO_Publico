@@ -40,3 +40,17 @@ CROSS APPLY
 ORDER BY 
     TiempoPromedioMs DESC;
 ```
+
+## Reinicia numeracion de formularios 
+```
+IF NOT EXISTS (
+    SELECT 1
+    FROM Tabla1
+    WHERE codfor = 'Comprobante1'
+)
+BEGIN
+
+update Tabla set ultnro=1, ultfecha='20250101' where modfor='FC'    ;
+END
+
+```
