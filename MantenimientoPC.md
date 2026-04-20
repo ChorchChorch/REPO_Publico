@@ -82,6 +82,15 @@ sigverif
 gpupdate /force
 gpresult -r
 
+REM Borra sesion Kerberos
+klist purge
+
+REM Relacion de dominio
+nltest /sc_verify:<NombreDominio>
+nltest /sc_query:<NombreDominio>
+REM  desde el servidor
+netdom verify <NombreEquipo> /domain:<NombreDominio>
+
 slmgr /dli    REM  Muestra información de la licencia actual (tipo de activación, estado
 slmgr /xpr    REM  Muestra si la licencia es permanente o tiene fecha de expiración.
 slmgr /dlv    REM  Muestra detalles más extensos, como canal de licencia (OEM, Retail, Volume)
