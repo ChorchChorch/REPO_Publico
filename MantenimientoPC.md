@@ -96,6 +96,26 @@ slmgr /xpr    REM  Muestra si la licencia es permanente o tiene fecha de expirac
 slmgr /dlv    REM  Muestra detalles más extensos, como canal de licencia (OEM, Retail, Volume)
 
 ```
+
+```
+Get-WmiObject -Class Win32_PhysicalMemoryArray | 
+Select-Object MaxCapacity, MemoryDevices
+
+Get-WmiObject -Class Win32_PhysicalMemory | 
+Select-Object DeviceLocator, 
+              @{Name="Capacity(GB)";Expression={[math]::Round($_.Capacity/1GB,2)}}, 
+              @{Name="MemoryType";Expression={
+                  switch ($_.MemoryType) {
+                      21 {"DDR2"}
+                      24 {"DDR3"}
+                      26 {"DDR4"}
+                      30 {"DDR5"}
+                      default {"Otro/Desconocido"}
+                  }
+              }},
+              @{Name="Speed(MHz)";Expression={$_.Speed}}
+```
+
 ### Ejecucion de un benckmark
 La consola de Windows ejecuta un benchmark completo que analiza el rendimiento del equipo y todos sus componentes. Este comando, el WINSAT, también puede ser acompañado de otros apellidos más allá de FORMAL, como por ejemplo CPUFORMAL para medir sólo el rendimiento de la CPU, MEMFORMAL para el de la RAM, GRAPHICSFORMAL para la tarjeta gráfica o DISKFORMAL para las unidades de almacenamiento.
 ```
