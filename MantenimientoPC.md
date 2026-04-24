@@ -106,14 +106,52 @@ Select-Object DeviceLocator,
               @{Name="Capacity(GB)";Expression={[math]::Round($_.Capacity/1GB,2)}}, 
               @{Name="MemoryType";Expression={
                   switch ($_.MemoryType) {
-                      21 {"DDR2"}
-                      24 {"DDR3"}
-                      26 {"DDR4"}
-                      30 {"DDR5"}
+                      21 {"cod 21 - DDR2"}
+                      24 {"cod 24 - DDR3"}
+                      26 {"cod 26 - DDR4"}
+                      30 {"cod 30 - DDR5" }
                       default {"Otro/Desconocido"}
                   }
               }},
               @{Name="Speed(MHz)";Expression={$_.Speed}}
+
+
+Get-WmiObject -Class Win32_PhysicalMemory |
+Select-Object Manufacturer,
+              SerialNumber,
+              @{Name="FormFactor";Expression={
+                  switch ($_.FormFactor) {
+                      0 {"Desconocido"}
+                      1 {"Otro"}
+                      2 {"SIP"}
+                      3 {"DIP"}
+                      4 {"ZIP"}
+                      5 {"SOJ"}
+                      6 {"Proprietary"}
+                      7 {"SIMM"}
+                      8 {"cod 8 - DIMM"}
+                      9 {"TSOP"}
+                      10 {"PGA"}
+                      11 {"RIMM"}
+                      12 {"SODIMM"}
+                      13 {"SRIMM"}
+                      14 {"SMD"}
+                      15 {"SSMP"}
+                      16 {"QFP"}
+                      17 {"TQFP"}
+                      18 {"SOIC"}
+                      19 {"LCC"}
+                      20 {"PLCC"}
+                      21 {"BGA"}
+                      22 {"FPBGA"}
+                      23 {"LGA"}
+                      default {"Otro/Desconocido"}
+                  }
+              }},
+              BankLabel,
+              @{Name="ConfiguredClockSpeed(MHz)";Expression={$_.ConfiguredClockSpeed}},
+              @{Name="DataWidth/TotalWidth";Expression={"$($_.DataWidth)/$($_.TotalWidth)"}}
+
 
 
 Escritorio remoto - Analisis
