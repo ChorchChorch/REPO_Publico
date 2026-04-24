@@ -114,6 +114,10 @@ Select-Object DeviceLocator,
                   }
               }},
               @{Name="Speed(MHz)";Expression={$_.Speed}}
+
+
+Escritorio remoto - Analisis
+Test-NetConnection -ComputerName PC1 -Port 3389
 ```
 
 ### Ejecucion de un benckmark
