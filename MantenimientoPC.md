@@ -43,6 +43,8 @@ En editar limite poner **DATOS ILIMITADOS**
 ## Estado Smart de Discos Rigidos
 ```
 WMIC /Output:STDOUT diskdrive get status
+Get-PhysicalDisk | Select-Object FriendlyName, OperationalStatus
+
 
 # Velocida de lectura real del disco
 $Path = "C:\temp\testfile.bin"
