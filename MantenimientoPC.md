@@ -63,6 +63,46 @@ $speed = $Size / $sw.Elapsed.TotalSeconds / 1MB
 Write-Output "Velocidad de lectura: $([math]::Round($speed,2)) MB/s"
 
 Remove-Item $Path
+
+
+# Ejecutar como Administrador
+Write-Host "Recopilando información de discos..." -ForegroundColor Cyan
+
+# Información física (Storage module)
+$phys = Get-PhysicalDisk | Select-Object DeviceId, FriendlyName, SerialNumber, Manufacturer, Model, MediaType, BusType, Size, HealthStatus, OperationalStatus
+
+# Información lógica a nivel OS
+$disks = Get-Disk | Select-Object Number, FriendlyName, SerialNumber, HealthStatus, OperationalStatus, PartitionStyle, Size, IsBoot, IsSystem
+
+# Particiones y volúmenes
+$parts = Get-Partition | Select-Object DiskNumber, PartitionNumber, Type, Size, GptType, IsActive
+$vols  = Get-Volume | Select-Object DriveLetter, FileSystemLabel, FileSystem, SizeRemaining, Size, HealthStatus, OperationalStatus
+
+# Información WMI/CIM detallada (Win32_DiskDrive)
+$wmi = Get-CimInstance Win32_DiskDrive | Select-Object DeviceID, Model, InterfaceType, MediaType, SerialNumber, Status, Size
+
+# Ensamblar y mostrar
+Write-Host "`n=== Discos físicos (Get-PhysicalDisk) ===" -ForegroundColor Yellow
+$phys | Format-Table -AutoSize
+
+Write-Host "`n=== Discos lógicos (Get-Disk) ===" -ForegroundColor Yellow
+$disks | Format-Table -AutoSize
+
+Write-Host "`n=== Particiones (Get-Partition) ===" -ForegroundColor Yellow
+$parts | Format-Table -AutoSize
+
+Write-Host "`n=== Volúmenes (Get-Volume) ===" -ForegroundColor Yellow
+$vols | Format-Table -AutoSize
+
+Write-Host "`n=== Detalle WMI (Win32_DiskDrive) ===" -ForegroundColor Yellow
+$wmi | Format-Table -AutoSize
+
+# Resumen rápido de problemas
+Write-Host "`n=== Discos con HealthStatus distinto de Healthy ===" -ForegroundColor Red
+$phys | Where-Object { $_.HealthStatus -ne 'Healthy' } | Format-Table -AutoSize
+
+Write-Host "`nScript finalizado." -ForegroundColor Green
+
 ```
 
 ## Limpieza PC con Windows
