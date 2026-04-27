@@ -45,7 +45,7 @@ En editar limite poner **DATOS ILIMITADOS**
 WMIC /Output:STDOUT diskdrive get status
 Get-PhysicalDisk | Select-Object FriendlyName, OperationalStatus
 
-
+# ---------------------------------------------------------------
 # Velocida de lectura real del disco
 $Path = "C:\temp\testfile.bin"
 $Size = 500MB
@@ -64,7 +64,7 @@ Write-Output "Velocidad de lectura: $([math]::Round($speed,2)) MB/s"
 
 Remove-Item $Path
 
-
+# ---------------------------------------------------------------
 # Ejecutar como Administrador
 Write-Host "Recopilando información de discos..." -ForegroundColor Cyan
 
