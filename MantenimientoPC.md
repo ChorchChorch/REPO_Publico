@@ -43,6 +43,24 @@ En editar limite poner **DATOS ILIMITADOS**
 ## Estado Smart de Discos Rigidos
 ```
 WMIC /Output:STDOUT diskdrive get status
+
+# Velocida de lectura real del disco
+$Path = "C:\temp\testfile.bin"
+$Size = 500MB
+$Buffer = New-Object byte[] $Size
+[System.IO.File]::WriteAllBytes($Path, $Buffer)
+
+$sw = [System.Diagnostics.Stopwatch]::StartNew()
+$fs = [System.IO.File]::OpenRead($Path)
+$bytes = New-Object byte[] $fs.Length
+$fs.Read($bytes, 0, $fs.Length) | Out-Null
+$fs.Close()
+$sw.Stop()
+
+$speed = $Size / $sw.Elapsed.TotalSeconds / 1MB
+Write-Output "Velocidad de lectura: $([math]::Round($speed,2)) MB/s"
+
+Remove-Item $Path
 ```
 
 ## Limpieza PC con Windows
@@ -151,27 +169,6 @@ Select-Object Manufacturer,
               BankLabel,
               @{Name="ConfiguredClockSpeed(MHz)";Expression={$_.ConfiguredClockSpeed}},
               @{Name="DataWidth/TotalWidth";Expression={"$($_.DataWidth)/$($_.TotalWidth)"}}
-
-
-# Velocida de lectura real del disco
-$Path = "C:\temp\testfile.bin"
-$Size = 500MB
-$Buffer = New-Object byte[] $Size
-[System.IO.File]::WriteAllBytes($Path, $Buffer)
-
-$sw = [System.Diagnostics.Stopwatch]::StartNew()
-$fs = [System.IO.File]::OpenRead($Path)
-$bytes = New-Object byte[] $fs.Length
-$fs.Read($bytes, 0, $fs.Length) | Out-Null
-$fs.Close()
-$sw.Stop()
-
-$speed = $Size / $sw.Elapsed.TotalSeconds / 1MB
-Write-Output "Velocidad de lectura: $([math]::Round($speed,2)) MB/s"
-
-Remove-Item $Path
-
-
 
 
 Escritorio remoto - Analisis
