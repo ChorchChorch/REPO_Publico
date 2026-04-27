@@ -222,9 +222,6 @@ La consola de Windows ejecuta un benchmark completo que analiza el rendimiento d
 ```
 WINSAT FORMAL
 ```
-![RAM_ZOCALOS](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/RAM_ZOCALOS.JPG)
-![SMART HDD con PowerShell](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/SMART_HDD.JPG)
-
 ### detectar errores en la memoria RAM del PC
 Abrira una ventana de Windows preguntando si queres correrlo de manera inmedia (reiniciando) o en el porximo reinicio 
 ```
