@@ -184,3 +184,8 @@ define: Significados
 ### Usuarios de escritorio remoto
 LUSRMGR.MSC
 
+### Phototastic Collage
+Alternativa a Canva
+
+https://apps.microsoft.com/detail/9WZDNCRCWFTB?hl=neutral&gl=AR&ocid=pdpshare
+
