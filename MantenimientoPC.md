@@ -217,6 +217,9 @@ Escritorio remoto - Analisis
 Test-NetConnection -ComputerName PC1 -Port 3389
 ```
 
+### Regenera los iconos de Windows
+Ejecutar **ie4uinit.exe -show** simplemente refresca la caché de iconos en Windows, útil cuando los íconos aparecen corruptos o no se actualizan correctamente.
+
 ### Ejecucion de un benckmark
 La consola de Windows ejecuta un benchmark completo que analiza el rendimiento del equipo y todos sus componentes. Este comando, el WINSAT, también puede ser acompañado de otros apellidos más allá de FORMAL, como por ejemplo CPUFORMAL para medir sólo el rendimiento de la CPU, MEMFORMAL para el de la RAM, GRAPHICSFORMAL para la tarjeta gráfica o DISKFORMAL para las unidades de almacenamiento.
 ```
