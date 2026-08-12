@@ -39,7 +39,7 @@ Red e Internet > Configuracion avanzada de red > Uso de datos
 En editar limite poner **DATOS ILIMITADOS**
 ```
 
-"" Clave de windows que se regenera cuando formateas
+## Clave de windows que se regenera cuando formateas
 GDID (Global Device Identifier) Trazabilidad de Windows, se trata de un identificador asociado a una instalación de Windows que se almacena en el registro. 
 
 Investigaciones recientes indican que suele encontrarse en el valor LID dentro de IdentityCRL.
