@@ -79,6 +79,9 @@ echo ======================================
 shutdown /r /t 15
 
 
+
+
+echo ============================= PLUSS =============================
 netsh winhttp show proxy
 
 netsh winhttp reset proxy
