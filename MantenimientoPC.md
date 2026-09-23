@@ -33,6 +33,10 @@ Sino recorrer esta ruta
 
 ![confiabilidad Imagen](https://github.com/ChorchChorch/REPO_Publico/blob/master/IM/Monitoreo_Confiabilidad_Issues.JPG)
 
+## Reiniciar una PC Remota
+```
+shutdown /r /m \\NOMBRE_PC /t 0
+```
 ## Quitar limite de datos en Windows
 ```
 Red e Internet > Configuracion avanzada de red > Uso de datos
