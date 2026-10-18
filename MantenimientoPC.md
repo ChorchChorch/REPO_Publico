@@ -148,6 +148,7 @@ systeminfo
 DISM /Online /Cleanup-Image /checkhealth
 DISM /Online /Cleanup-Image /ScanHealth
 DISM /Online /Cleanup-Image /restorehealth
+DISM /Online /Cleanup-Image /startcomponentcleanup
  
 sfc /scannow
 sigverif
